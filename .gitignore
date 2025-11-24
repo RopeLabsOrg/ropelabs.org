@@ -1,6 +1,4 @@
 node_modules
 bun.lockb
 docs/*.html
-!docs/index.html
 .DS_Store
-

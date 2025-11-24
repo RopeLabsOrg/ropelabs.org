@@ -185,9 +185,9 @@ function buildHomepageHtml(body: string, meta: RenderPlan['meta']): string {
             <a data-email-link href="#" class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white">
               <span
                 data-email
-                data-user="ZW1haWw="
-                data-domain="cGV6Y3Vja293LmNvbQ=="
-              >e&#8203;m&#8203;a&#8203;i&#8203;l&#8203;@&#8203;p&#8203;e&#8203;z&#8203;c&#8203;u&#8203;c&#8203;k&#8203;o&#8203;w&#8203;.&#8203;c&#8203;o&#8203;m</span>
+                data-user="Y29udGFjdA=="
+                data-domain="cm9wZWxhYnMub3Jn"
+              >c&#8203;o&#8203;n&#8203;t&#8203;a&#8203;c&#8203;t&#8203;@&#8203;r&#8203;o&#8203;p&#8203;e&#8203;l&#8203;a&#8203;b&#8203;s&#8203;.&#8203;o&#8203;r&#8203;g</span>
             </a>
           </span>
         </div>
@@ -281,9 +281,9 @@ function buildDetailPageHtml(body: string, meta: RenderPlan['meta']): string {
             <a data-email-link href="#" class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white">
               <span
                 data-email
-                data-user="ZW1haWw="
-                data-domain="cGV6Y3Vja293LmNvbQ=="
-              >e&#8203;m&#8203;a&#8203;i&#8203;l&#8203;@&#8203;p&#8203;e&#8203;z&#8203;c&#8203;u&#8203;c&#8203;k&#8203;o&#8203;w&#8203;.&#8203;c&#8203;o&#8203;m</span>
+                data-user="Y29udGFjdA=="
+                data-domain="cm9wZWxhYnMub3Jn"
+              >c&#8203;o&#8203;n&#8203;t&#8203;a&#8203;c&#8203;t&#8203;@&#8203;r&#8203;o&#8203;p&#8203;e&#8203;l&#8203;a&#8203;b&#8203;s&#8203;.&#8203;o&#8203;r&#8203;g</span>
             </a>
           </span>
         </div>
