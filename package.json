@@ -1,0 +1,16 @@
+{
+  "name": "ropelabs.org",
+  "private": true,
+  "scripts": {
+    "dev": "bun scripts/dev.ts",
+    "build:pages": "bun scripts/build-pages.ts"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
+
