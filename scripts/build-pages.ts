@@ -17,13 +17,16 @@ interface FrontMatter {
 interface RenderPlan {
   readonly sourcePath: string
   readonly outputPath: string
+  readonly relativeOutput: string
   readonly html: string
-  readonly meta: Required<Omit<FrontMatter, 'slug' | 'output'>> & Pick<FrontMatter, 'slug' | 'output'>
+  readonly meta: Required<Omit<FrontMatter, 'slug' | 'output'>> &
+    Pick<FrontMatter, 'slug' | 'output'>
 }
 
 const CONTENT_DIR = path.resolve('content')
 const OUTPUT_DIR = path.resolve('docs')
 const TEMPLATE_PATH = path.resolve('scripts/template.html')
+const BASE_URL = 'https://ropelabs.org'
 
 const DEFAULT_META: Required<Omit<FrontMatter, 'slug' | 'output'>> = {
   title: 'RopeLabs',
@@ -63,6 +66,8 @@ async function build(): Promise<void> {
       console.log(`Generated ${path.relative(process.cwd(), plan.outputPath)}`)
     }),
   )
+
+  await writeSitemap(plans)
 }
 
 async function createPlan(fileName: string): Promise<RenderPlan> {
@@ -82,6 +87,7 @@ async function createPlan(fileName: string): Promise<RenderPlan> {
   return {
     sourcePath,
     outputPath,
+    relativeOutput: outputName,
     html: appendUtmParams(md.render(body)),
     meta: mergedMeta,
   }
@@ -252,6 +258,37 @@ async function loadTemplate(): Promise<string> {
   }
   cachedTemplate = await readFile(TEMPLATE_PATH, 'utf-8')
   return cachedTemplate
+}
+
+async function writeSitemap(plans: RenderPlan[]): Promise<void> {
+  const unique = new Map<string, RenderPlan>()
+  plans.forEach((plan) => unique.set(plan.relativeOutput, plan))
+
+  const rows = [...unique.values()]
+    .sort((a, b) => a.relativeOutput.localeCompare(b.relativeOutput))
+    .map((plan) => {
+      return ['  <url>', `    <loc>${toAbsoluteUrl(plan.relativeOutput)}</loc>`, '  </url>'].join(
+        '\n',
+      )
+    })
+    .join('\n')
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${rows}
+</urlset>
+`
+
+  const sitemapPath = path.join(OUTPUT_DIR, 'sitemap.xml')
+  await mkdir(path.dirname(sitemapPath), { recursive: true })
+  await writeFile(sitemapPath, sitemap)
+  // eslint-disable-next-line no-console
+  console.log(`Generated ${path.relative(process.cwd(), sitemapPath)}`)
+}
+
+function toAbsoluteUrl(relativePath: string): string {
+  const normalized = `/${relativePath.replace(/^\/+/, '')}`
+  return new URL(normalized, BASE_URL).toString()
 }
 
 async function startWatch(): Promise<void> {
