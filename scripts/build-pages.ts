@@ -23,6 +23,7 @@ interface RenderPlan {
 
 const CONTENT_DIR = path.resolve('content')
 const OUTPUT_DIR = path.resolve('docs')
+const TEMPLATE_PATH = path.resolve('scripts/template.html')
 
 const DEFAULT_META: Required<Omit<FrontMatter, 'slug' | 'output'>> = {
   title: 'RopeLabs',
@@ -34,6 +35,7 @@ const DEFAULT_META: Required<Omit<FrontMatter, 'slug' | 'output'>> = {
 }
 
 const WATCH_FLAG = process.argv.includes('--watch')
+let cachedTemplate: string | null = null
 
 const md = new MarkdownIt({
   html: true,
@@ -55,7 +57,8 @@ async function build(): Promise<void> {
   await Promise.all(
     plans.map(async (plan) => {
       await mkdir(path.dirname(plan.outputPath), { recursive: true })
-      await writeFile(plan.outputPath, buildHtml(plan.html, plan.meta))
+      const rendered = await buildHtml(plan.html, plan.meta)
+      await writeFile(plan.outputPath, rendered)
       // eslint-disable-next-line no-console
       console.log(`Generated ${path.relative(process.cwd(), plan.outputPath)}`)
     }),
@@ -132,42 +135,18 @@ function sanitizeSlug(value: string): string {
   )
 }
 
-function buildHtml(body: string, meta: RenderPlan['meta']): string {
+async function buildHtml(body: string, meta: RenderPlan['meta']): Promise<string> {
   const isHomepage = meta.output === 'index.html'
   
   if (isHomepage) {
-    return buildHomepageHtml(body, meta)
+    return renderWithTemplate(buildHomepageBody(body, meta), meta)
   }
   
-  return buildDetailPageHtml(body, meta)
+  return renderWithTemplate(buildDetailBody(body, meta), meta)
 }
 
-function buildHomepageHtml(body: string, meta: RenderPlan['meta']): string {
-  return `<!doctype html>
-<html lang="en" class="h-full">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>${meta.title}</title>
-    <meta name="description" content="${meta.description}" />
-    <link rel="icon" href="img/logo_acyonym_small.png" />
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              brand: '#1a1a1a',
-              accent: '#8b4513',
-              rope: '#d4a574',
-            },
-          },
-        },
-      }
-    </script>
-  </head>
-  <body class="min-h-full bg-slate-50 text-slate-900">
-    <div class="relative isolate overflow-hidden">
+function buildHomepageBody(body: string, meta: RenderPlan['meta']): string {
+  return `<div class="relative isolate overflow-hidden">
       <div class="mx-auto max-w-4xl px-6 py-16 lg:px-10">
         <div class="flex flex-col items-center text-center mb-12">
           <img src="img/logo_acyonym_small.png" alt="RopeLabs logo" class="mb-6 h-24 w-24" />
@@ -192,70 +171,12 @@ function buildHomepageHtml(body: string, meta: RenderPlan['meta']): string {
           </span>
         </div>
       </footer>
-    </div>
-    <script>
-      ;(() => {
-        const target = document.querySelector('[data-email]')
-        if (!target) {
-          return
-        }
-
-        const decode = (value) => {
-          if (!value) return ''
-          try {
-            return atob(value)
-          } catch {
-            return ''
-          }
-        }
-
-        const user = decode(target.dataset.user)
-        const domain = decode(target.dataset.domain)
-        if (!user || !domain) {
-          return
-        }
-
-        const address = \`\${user}@\${domain}\`
-        target.textContent = address
-
-        const link = target.closest('[data-email-link]')
-        if (link instanceof HTMLAnchorElement) {
-          link.href = \`mailto:\${address}\`
-        }
-      })()
-    </script>
-  </body>
-</html>
-`
+    </div>`
 }
 
-function buildDetailPageHtml(body: string, meta: RenderPlan['meta']): string {
+function buildDetailBody(body: string, meta: RenderPlan['meta']): string {
   const showBackLink = meta.output !== 'index.html'
-  return `<!doctype html>
-<html lang="en" class="h-full">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>${meta.title}</title>
-    <meta name="description" content="${meta.description}" />
-    <link rel="icon" href="img/logo_acyonym_small.png" />
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              brand: '#1a1a1a',
-              accent: '#8b4513',
-              rope: '#d4a574',
-            },
-          },
-        },
-      }
-    </script>
-  </head>
-  <body class="min-h-full bg-slate-50 text-slate-900">
-    <div class="relative isolate overflow-hidden bg-white/95 backdrop-blur">
+  return `<div class="relative isolate overflow-hidden bg-white/95 backdrop-blur">
       <div class="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:flex-row lg:gap-16 lg:px-10">
         <aside class="lg:w-1/4">
           ${showBackLink ? `<a href="${meta.backLinkHref}" class="inline-flex items-center gap-2 text-brand hover:underline" aria-label="${meta.backLinkLabel}">
@@ -288,41 +209,7 @@ function buildDetailPageHtml(body: string, meta: RenderPlan['meta']): string {
           </span>
         </div>
       </footer>
-    </div>
-    <script>
-      ;(() => {
-        const target = document.querySelector('[data-email]')
-        if (!target) {
-          return
-        }
-
-        const decode = (value) => {
-          if (!value) return ''
-          try {
-            return atob(value)
-          } catch {
-            return ''
-          }
-        }
-
-        const user = decode(target.dataset.user)
-        const domain = decode(target.dataset.domain)
-        if (!user || !domain) {
-          return
-        }
-
-        const address = \`\${user}@\${domain}\`
-        target.textContent = address
-
-        const link = target.closest('[data-email-link]')
-        if (link instanceof HTMLAnchorElement) {
-          link.href = \`mailto:\${address}\`
-        }
-      })()
-    </script>
-  </body>
-</html>
-`
+    </div>`
 }
 
 function appendUtmParams(html: string): string {
@@ -349,6 +236,22 @@ function appendUtmParams(html: string): string {
     const escaped = updated.replace(/&/g, '&amp;')
     return `href="${escaped}"`
   })
+}
+
+async function renderWithTemplate(body: string, meta: RenderPlan['meta']): Promise<string> {
+  const template = await loadTemplate()
+  return template
+    .replace('{{TITLE}}', meta.title)
+    .replace('{{DESCRIPTION}}', meta.description)
+    .replace('{{BODY}}', body)
+}
+
+async function loadTemplate(): Promise<string> {
+  if (cachedTemplate !== null) {
+    return cachedTemplate
+  }
+  cachedTemplate = await readFile(TEMPLATE_PATH, 'utf-8')
+  return cachedTemplate
 }
 
 async function startWatch(): Promise<void> {

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}" />
+    <link rel="icon" href="img/logo_acyonym_small.png" />
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: '#1a1a1a',
+              accent: '#8b4513',
+              rope: '#d4a574',
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="min-h-full bg-slate-50 text-slate-900">
+    {{BODY}}
+    <script>
+      ;(() => {
+        const target = document.querySelector('[data-email]')
+        if (!target) {
+          return
+        }
+
+        const decode = (value) => {
+          if (!value) return ''
+          try {
+            return atob(value)
+          } catch {
+            return ''
+          }
+        }
+
+        const user = decode(target.dataset.user)
+        const domain = decode(target.dataset.domain)
+        if (!user || !domain) {
+          return
+        }
+
+        const address = `${user}@${domain}`
+        target.textContent = address
+
+        const link = target.closest('[data-email-link]')
+        if (link instanceof HTMLAnchorElement) {
+          link.href = `mailto:${address}`
+        }
+      })()
+    </script>
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  </body>
+</html>
+
