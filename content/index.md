@@ -7,12 +7,6 @@ slug: index
 output: index.html
 ---
 
-## 🎪 Current Event: [39C3](39c3.html)
-
-We are an assembly at 39C3 (Chaos Communication Congress) in Hamburg. We're running bondage workshops and a rope jam together with [KinkyGeeks.de](https://kinkygeeks.de), and we'll have rope and safety equipment for sale on a donation basis.
-
-[See our 39C3 page for details →](39c3.html)
-
 ## Who we are
 
 We are a small, queer-friendly group of rope bondage (shibari) enthusiasts. We build a friendly, respectful space to explore rope safely, learn together, and support each other.
@@ -21,6 +15,12 @@ Whether you're brand new or have years of experience, you're welcome at RopeLabs
 Recent events include EMF, Bornhack, FriedCamp, WHY2025, and Congress.
 
 Want to hang with us? Send a message (via [Fetlife](https://fetlife.com/RopeLabs) or [Mastodon](https://chaos.social/@RopeLabs)) so we can get you a group chat, or find us at an event and ask.
+
+## 🎪 Current Event: [39C3](/39c3)
+
+We are an assembly at 39C3 (Chaos Communication Congress) in Hamburg. We're running bondage workshops and a rope jam together with [KinkyGeeks.de](https://kinkygeeks.de), and we'll have rope and safety equipment for sale on a donation basis.
+
+[See our 39C3 page for details →](/39c3)
 
 ## What we offer
 
@@ -60,7 +60,7 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 ## Previous Events
 
-* **[WHY2025](why2025.html)** - August 2025
+* **[WHY2025](/why2025)** - August 2025
 * **Bornhack 2025** - July 2025
 * **FriedCamp 2024** - August 2024
 * **EMF 2024** - June 2024
