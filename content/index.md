@@ -7,6 +7,12 @@ slug: index
 output: index.html
 ---
 
+## 🎪 Current Event: [39C3](39c3.html)
+
+We are an assembly at 39C3 (Chaos Communication Congress) in Hamburg. We're running bondage workshops and a rope jam together with [KinkyGeeks.de](https://kinkygeeks.de), and we'll have rope and safety equipment for sale on a donation basis.
+
+[See our 39C3 page for details →](39c3.html)
+
 ## Who we are
 
 We are a small, queer-friendly group of rope bondage (shibari) enthusiasts. We build a friendly, respectful space to explore rope safely, learn together, and support each other.
@@ -51,16 +57,6 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 - You must have explicit permission from one of the organisers before using our suspension frame.
 
 <sup>*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
-
-## Current Event
-
-**🎪 [39C3](39c3.html) - December 2025**
-
-We are an accepted assembly at 39C3 (Chaos Communication Congress) in Hamburg.
-
-We will run bondage workshops and possibly an open rope jam, together with [KinkyGeeks.de](https://kinkygeeks.de). We also plan to have rope for sale.
-
-[More details about 39C3 →](39c3.html)
 
 ## Previous Events
 
