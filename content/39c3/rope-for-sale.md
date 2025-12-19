@@ -3,7 +3,7 @@ title: Rope & Safety Kit for Sale at 39c3 | RopeLabs
 description: Practice-ready 8m shibari ropes and safety cutters available at 39c3 on a pay-what-you-want donation basis. Keep tying between workshops with quality gear.
 sidebarTitle: Rope & Safety
 sidebarSummary: Get practice-ready shibari rope and safety cutters on a pay-what-you-want basis at 39c3. Choose from jute, POSH, and safety equipment.
-backLinkHref: ../39c3
+backLinkHref: /39c3
 backLinkLabel: Back to 39c3
 slug: 39c3/rope-for-sale
 ---
@@ -108,6 +108,6 @@ If you need one for your records, we can arrange a charge with VAT.
 
 ## Related pages
 
-- [RopeLabs at 39c3](../39c3.html) - our assembly and workshops at Congress.
-- [RopeLabs Home](../index.html) - learn more about who we are.
+- [RopeLabs at 39c3](/39c3) - our assembly and workshops at Congress.
+- [RopeLabs Home](/) - learn more about who we are.
 

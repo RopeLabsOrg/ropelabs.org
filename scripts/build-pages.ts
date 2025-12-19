@@ -13,6 +13,7 @@ interface FrontMatter {
   readonly backLinkLabel?: string
   readonly slug?: string
   readonly output?: string
+  readonly ogImage?: string
 }
 
 interface RenderPlan {
@@ -20,8 +21,8 @@ interface RenderPlan {
   readonly outputPath: string
   readonly relativeOutput: string
   readonly html: string
-  readonly meta: Required<Omit<FrontMatter, 'slug' | 'output'>> &
-    Pick<FrontMatter, 'slug' | 'output'>
+  readonly meta: Required<Omit<FrontMatter, 'slug' | 'output' | 'ogImage'>> &
+    Pick<FrontMatter, 'slug' | 'output' | 'ogImage'>
 }
 
 const CONTENT_DIR = path.resolve('content')
@@ -29,12 +30,12 @@ const OUTPUT_DIR = path.resolve('docs')
 const TEMPLATE_PATH = path.resolve('scripts/template.html')
 const BASE_URL = 'https://ropelabs.org'
 
-const DEFAULT_META: Required<Omit<FrontMatter, 'slug' | 'output'>> = {
+const DEFAULT_META: Required<Omit<FrontMatter, 'slug' | 'output' | 'ogImage'>> = {
   title: 'RopeLabs',
   description: 'A small group of Shibari enthusiasts, providing lessons & info.',
   sidebarTitle: 'RopeLabs',
   sidebarSummary: 'A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.',
-  backLinkHref: 'index.html',
+  backLinkHref: '/',
   backLinkLabel: 'Back to RopeLabs',
 }
 
@@ -257,10 +258,33 @@ function appendUtmParams(html: string): string {
 
 async function renderWithTemplate(body: string, meta: RenderPlan['meta']): Promise<string> {
   const template = await loadTemplate()
+  const pageUrl = cleanUrl(meta.output ?? 'index.html')
+  const canonicalUrl = pageUrl
+  const ogImage = meta.ogImage
+    ? toAbsoluteUrl(meta.ogImage)
+    : toAbsoluteUrl('img/logo_acyonym.png')
+  
   return template
-    .replace('{{TITLE}}', meta.title)
-    .replace('{{DESCRIPTION}}', meta.description)
+    .replace('{{TITLE}}', escapeHtml(meta.title))
+    .replace('{{DESCRIPTION}}', escapeHtml(meta.description))
+    .replace('{{CANONICAL_URL}}', canonicalUrl)
+    .replace('{{OG_URL}}', pageUrl)
+    .replace('{{OG_TITLE}}', escapeHtml(meta.title))
+    .replace('{{OG_DESCRIPTION}}', escapeHtml(meta.description))
+    .replace('{{OG_IMAGE}}', ogImage)
+    .replace('{{TWITTER_TITLE}}', escapeHtml(meta.title))
+    .replace('{{TWITTER_DESCRIPTION}}', escapeHtml(meta.description))
+    .replace('{{TWITTER_IMAGE}}', ogImage)
     .replace('{{BODY}}', body)
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
 }
 
 async function loadTemplate(): Promise<string> {
@@ -278,7 +302,7 @@ async function writeSitemap(plans: RenderPlan[]): Promise<void> {
   const rows = [...unique.values()]
     .sort((a, b) => a.relativeOutput.localeCompare(b.relativeOutput))
     .map((plan) => {
-      return ['  <url>', `    <loc>${toAbsoluteUrl(plan.relativeOutput)}</loc>`, '  </url>'].join(
+      return ['  <url>', `    <loc>${cleanUrl(plan.relativeOutput)}</loc>`, '  </url>'].join(
         '\n',
       )
     })
@@ -299,6 +323,18 @@ ${rows}
 
 function toAbsoluteUrl(relativePath: string): string {
   const normalized = `/${relativePath.replace(/^\/+/, '')}`
+  return new URL(normalized, BASE_URL).toString()
+}
+
+function cleanUrl(relativePath: string): string {
+  // Remove .html extension
+  let cleaned = relativePath.replace(/\.html$/, '')
+  // Convert index to empty string (root path)
+  if (cleaned === 'index') {
+    cleaned = ''
+  }
+  // Ensure it starts with /
+  const normalized = cleaned ? `/${cleaned}` : '/'
   return new URL(normalized, BASE_URL).toString()
 }
 
