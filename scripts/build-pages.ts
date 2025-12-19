@@ -2,6 +2,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import chokidar from 'chokidar'
 import MarkdownIt from 'markdown-it'
+import anchor from 'markdown-it-anchor'
 
 interface FrontMatter {
   readonly title?: string
@@ -44,6 +45,16 @@ const md = new MarkdownIt({
   html: true,
   linkify: true,
   typographer: true,
+}).use(anchor, {
+  level: [1, 2, 3],
+  permalink: false,
+  slugify: (s: string) => {
+    return s
+      .toLowerCase()
+      .trim()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/[\s_-]+/g, '-')
+  },
 })
 
 async function build(): Promise<void> {

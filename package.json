@@ -7,10 +7,10 @@
   },
   "dependencies": {
     "chokidar": "^4.0.3",
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
   }
 }
-
