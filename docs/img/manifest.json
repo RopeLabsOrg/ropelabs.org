@@ -1,5 +1,7 @@
 {
   "name": "RopeLabs",
+  "theme_color": "#F8F0E0",
+  "background_color": "#F8F0E0",
   "icons": [
     {
       "src": "/img/icon-192.png",
