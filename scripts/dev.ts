@@ -27,14 +27,21 @@ const server = Bun.serve({
       pathname += 'index.html'
     }
 
+    // Try the requested path first
     const primaryPath = resolveFilePath(pathname)
     const file = Bun.file(primaryPath)
     if (await file.exists()) {
       return new Response(file)
     }
 
-    // Try folder/index.html fallback when the request had no extension
+    // If no extension, try .html and folder/index.html fallbacks
     if (!path.extname(pathname)) {
+      const htmlPath = resolveFilePath(`${pathname}.html`)
+      const htmlFile = Bun.file(htmlPath)
+      if (await htmlFile.exists()) {
+        return new Response(htmlFile)
+      }
+
       const fallbackPath = resolveFilePath(path.join(pathname, 'index.html'))
       const fallbackFile = Bun.file(fallbackPath)
       if (await fallbackFile.exists()) {
