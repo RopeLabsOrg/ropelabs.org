@@ -6,7 +6,7 @@
     "build:pages": "bun scripts/build-pages.ts"
   },
   "dependencies": {
-    "simple-markdown-builder": "^0.2.6"
+    "simple-markdown-builder": "^0.2.7"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
