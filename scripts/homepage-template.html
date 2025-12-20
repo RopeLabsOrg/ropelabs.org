@@ -36,28 +36,19 @@
     </script>
   </head>
   <body class="min-h-full bg-slate-50 text-slate-900">
-    <div class="relative isolate overflow-hidden bg-white/95 backdrop-blur">
-      <div class="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:flex-row lg:gap-16 lg:px-10">
-        <aside class="lg:w-1/4">
-          <a href="{{BACK_LINK_HREF}}" class="inline-flex items-center gap-2 text-brand hover:underline" aria-label="{{BACK_LINK_LABEL}}">
-            <span aria-hidden="true">←</span>
-            {{BACK_LINK_LABEL}}
-          </a>
-          <div class="mt-6 rounded-2xl border border-accent/30 bg-rope/20 p-6 text-sm shadow-sm">
-            <img src="/img/logo_acyonym_small.png" alt="RopeLabs logo" class="mb-4 h-16 w-16" />
-            <p class="font-semibold text-brand">{{SIDEBAR_TITLE}}</p>
-            <p class="mt-2 text-slate-700">
-              {{SIDEBAR_SUMMARY}}
-            </p>
-          </div>
-        </aside>
-        <main class="prose prose-slate max-w-none lg:w-3/4 prose-a:text-accent prose-strong:text-brand prose-headings:text-brand">
-          {{LANGUAGE_SWITCHER}}
+    <div class="relative isolate overflow-hidden">
+      <div class="mx-auto max-w-4xl px-6 py-16 lg:px-10">
+        <div class="flex flex-col items-center text-center mb-12">
+          <img src="/img/logo_acyonym_small.png" alt="RopeLabs logo" class="mb-6 h-24 w-24" />
+          <h1 class="text-5xl font-bold text-brand mb-4">{{TITLE}}</h1>
+          <p class="text-xl text-slate-600 max-w-2xl">{{DESCRIPTION}}</p>
+        </div>
+        <div class="prose prose-lg prose-slate max-w-none mx-auto prose-a:text-accent prose-strong:text-brand prose-headings:text-brand prose-headings:font-semibold">
           {{BODY}}
-        </main>
+        </div>
       </div>
-      <footer class="border-t border-accent/10 bg-brand text-white">
-        <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6 text-sm">
+      <footer class="border-t border-accent/10 bg-brand text-white mt-16">
+        <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-4 px-6 py-6 text-sm">
           <span>
             © {{YEAR}} RopeLabs •
             <a data-email-link href="#" class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white">
