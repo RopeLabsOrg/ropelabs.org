@@ -2,7 +2,7 @@
   "name": "ropelabs.org",
   "private": true,
   "scripts": {
-    "dev": "bun scripts/dev.ts",
+    "dev": "bun scripts/build-pages.ts --watch",
     "build:pages": "bun scripts/build-pages.ts"
   },
   "dependencies": {
