@@ -1,26 +1,28 @@
-import { build } from 'simple-markdown-builder'
-import path from 'node:path'
+import { build } from "simple-markdown-builder";
+import path from "node:path";
 
-const CLEAN_FLAG = process.argv.includes('--clean')
+const CLEAN_FLAG = process.argv.includes("--clean");
 
 const config = {
-  contentDir: 'content',
-  outputDir: 'docs',
-  baseUrl: 'https://ropelabs.org',
-  templatePath: path.resolve('scripts/template.html'),
-  homepageTemplatePath: path.resolve('scripts/homepage-template.html'),
+  contentDir: "content",
+  outputDir: "docs",
+  baseUrl: "https://ropelabs.org",
+  templatePath: path.resolve("scripts/template.html"),
+  homepageTemplatePath: path.resolve("scripts/homepage-template.html"),
   defaultMeta: {
-    title: 'RopeLabs',
-    description: 'A small group of Shibari enthusiasts, providing lessons & info.',
-    sidebarTitle: 'RopeLabs',
-    sidebarSummary: 'A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.',
-    backLinkHref: '/',
-    backLinkLabel: 'Back to RopeLabs',
+    title: "RopeLabs",
+    description:
+      "A small group of Shibari enthusiasts, providing lessons & info.",
+    sidebarTitle: "RopeLabs",
+    sidebarSummary:
+      "A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.",
+    backLinkHref: "/",
+    backLinkLabel: "Back to RopeLabs",
   },
   utmParams: {
-    utm_campaign: 'ropelabs',
-    utm_medium: 'website',
-    utm_source: 'ropelabs',
+    utm_campaign: "ropelabs",
+    utm_medium: "website",
+    utm_source: "ropelabs",
   },
   markdownOptions: {
     html: true,
@@ -28,17 +30,17 @@ const config = {
     typographer: true,
   },
   clean: CLEAN_FLAG,
-}
+};
 
-const WATCH_FLAG = process.argv.includes('--watch')
+const WATCH_FLAG = process.argv.includes("--watch");
 
 if (WATCH_FLAG) {
-  const { startDevServer } = await import('simple-markdown-builder')
+  const { startDevServer } = await import("simple-markdown-builder");
   await startDevServer(config, {
     port: Number(process.env.PORT ?? 4173),
-    outputDir: 'docs',
+    outputDir: "docs",
     clean: CLEAN_FLAG,
-  })
+  });
 } else {
-  await build(config)
+  await build(config);
 }

@@ -51,19 +51,19 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 ### Safety and equipment
 
-- Do not interrupt a scene unless you see a clear safety or consent issue.<sup>*</sup>
+- Do not interrupt a scene unless you see a clear safety or consent issue.<sup>\*</sup>
 - You must have explicit permission from one of the organisers before using our suspension frame.
 
-<sup>*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
+<sup>\*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
 
 ## Previous Events
 
-* **[WHY2025](/why2025)** - August 2025
-* **Bornhack 2025** - July 2025
-* **FriedCamp 2024** - August 2024
-* **EMF 2024** - June 2024
-* **38C3** - December 2024
-* ...
+- **[WHY2025](/why2025)** - August 2025
+- **Bornhack 2025** - July 2025
+- **FriedCamp 2024** - August 2024
+- **EMF 2024** - June 2024
+- **38C3** - December 2024
+- ...
 
 ## Follow Us
 
@@ -71,14 +71,14 @@ You can follow us at:
 
 #### **RopeLabs**
 
-* **RopeLabs** - [FetLife](https://fetlife.com/RopeLabs), [Mastodon](https://chaos.social/@RopeLabs)
+- **RopeLabs** - [FetLife](https://fetlife.com/RopeLabs), [Mastodon](https://chaos.social/@RopeLabs)
 
 #### **Organisers**
 
-* **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
-* **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
-* **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
-* **orangem** - [FetLife](https://fetlife.com/orangem)
-* **Diac** - [FetLife](https://fetlife.com/diac)
-* **Bart** - [FetLife](https://fetlife.com/w817)
-* **Kluthulhu** - [FetLife](https://fetlife.com/kluthulhu) - [Mastodon](https://infosec.exchange/@kluthulhu)
+- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
+- **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
+- **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
+- **orangem** - [FetLife](https://fetlife.com/orangem)
+- **Diac** - [FetLife](https://fetlife.com/diac)
+- **Bart** - [FetLife](https://fetlife.com/w817)
+- **Kluthulhu** - [FetLife](https://fetlife.com/kluthulhu) - [Mastodon](https://infosec.exchange/@kluthulhu)

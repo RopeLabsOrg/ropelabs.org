@@ -9,7 +9,12 @@
     <link rel="canonical" href="{{CANONICAL_URL}}" />
     {{HREFLANG_LINKS}}
     <link rel="icon" href="/img/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="manifest" href="/img/manifest.json" />
     <meta name="theme-color" content="#F8F0E0" />
@@ -30,89 +35,109 @@
         theme: {
           extend: {
             colors: {
-              brand: '#1a1a1a',
-              accent: '#8b4513',
-              rope: '#d4a574',
+              brand: "#1a1a1a",
+              accent: "#8b4513",
+              rope: "#d4a574",
             },
           },
         },
-      }
+      };
     </script>
   </head>
   <body class="min-h-full bg-slate-50 text-slate-900">
     <div class="relative isolate overflow-hidden bg-white/95 backdrop-blur">
-      <div class="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:flex-row lg:gap-16 lg:px-10">
+      <div
+        class="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:flex-row lg:gap-16 lg:px-10"
+      >
         <aside class="lg:w-1/4">
-          <a href="{{BACK_LINK_HREF}}" class="inline-flex items-center gap-2 text-brand hover:underline" aria-label="{{BACK_LINK_LABEL}}">
+          <a
+            href="{{BACK_LINK_HREF}}"
+            class="inline-flex items-center gap-2 text-brand hover:underline"
+            aria-label="{{BACK_LINK_LABEL}}"
+          >
             <span aria-hidden="true">←</span>
             {{BACK_LINK_LABEL}}
           </a>
-          <div class="mt-6 rounded-2xl border border-accent/30 bg-rope/20 p-6 text-sm shadow-sm">
-            <img src="/img/logo_small.png" alt="RopeLabs logo" class="mb-4 h-16 w-16" />
+          <div
+            class="mt-6 rounded-2xl border border-accent/30 bg-rope/20 p-6 text-sm shadow-sm"
+          >
+            <img
+              src="/img/logo_small.png"
+              alt="RopeLabs logo"
+              class="mb-4 h-16 w-16"
+            />
             <p class="font-semibold text-brand">{{SIDEBAR_TITLE}}</p>
-            <p class="mt-2 text-slate-700">
-              {{SIDEBAR_SUMMARY}}
-            </p>
+            <p class="mt-2 text-slate-700">{{SIDEBAR_SUMMARY}}</p>
           </div>
         </aside>
-        <main class="prose prose-slate max-w-none lg:w-3/4 prose-a:text-accent prose-strong:text-brand prose-headings:text-brand">
-          {{LANGUAGE_SWITCHER}}
-          {{BODY}}
+        <main
+          class="prose prose-slate max-w-none lg:w-3/4 prose-a:text-accent prose-strong:text-brand prose-headings:text-brand"
+        >
+          {{LANGUAGE_SWITCHER}} {{BODY}}
         </main>
       </div>
       <footer class="border-t border-accent/10 bg-brand text-white">
-        <div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6 text-sm">
+        <div
+          class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6 text-sm"
+        >
           <span>
             © {{YEAR}} RopeLabs •
-            <a data-email-link href="#" class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white">
+            <a
+              data-email-link
+              href="#"
+              class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white"
+            >
               <span
                 data-email
                 data-user="Y29udGFjdA=="
                 data-domain="cm9wZWxhYnMub3Jn"
-              >c&#8203;o&#8203;n&#8203;t&#8203;a&#8203;c&#8203;t&#8203;@&#8203;r&#8203;o&#8203;p&#8203;e&#8203;l&#8203;a&#8203;b&#8203;s&#8203;.&#8203;o&#8203;r&#8203;g</span>
+                >c&#8203;o&#8203;n&#8203;t&#8203;a&#8203;c&#8203;t&#8203;@&#8203;r&#8203;o&#8203;p&#8203;e&#8203;l&#8203;a&#8203;b&#8203;s&#8203;.&#8203;o&#8203;r&#8203;g</span
+              >
             </a>
           </span>
         </div>
       </footer>
     </div>
     <script>
-      ;(() => {
-        const targets = document.querySelectorAll('[data-email]')
+      (() => {
+        const targets = document.querySelectorAll("[data-email]");
         if (targets.length === 0) {
-          return
+          return;
         }
 
         const decode = (value) => {
-          if (!value) return ''
+          if (!value) return "";
           try {
-            return atob(value)
+            return atob(value);
           } catch {
-            return ''
+            return "";
           }
-        }
+        };
 
         targets.forEach((target) => {
           if (!(target instanceof HTMLElement)) {
-            return
+            return;
           }
-          const user = decode(target.dataset.user)
-          const domain = decode(target.dataset.domain)
+          const user = decode(target.dataset.user);
+          const domain = decode(target.dataset.domain);
           if (!user || !domain) {
-            return
+            return;
           }
 
-          const address = `${user}@${domain}`
-          target.textContent = address
+          const address = `${user}@${domain}`;
+          target.textContent = address;
 
-          const link = target.closest('[data-email-link]')
+          const link = target.closest("[data-email-link]");
           if (link instanceof HTMLAnchorElement) {
-            link.href = `mailto:${address}`
+            link.href = `mailto:${address}`;
           }
-        })
-      })()
+        });
+      })();
     </script>
     <!-- 100% privacy-first analytics -->
-    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script
+      async
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+    ></script>
   </body>
 </html>
-
