@@ -3,7 +3,6 @@ title: RopeLabs
 description: A small group of Shibari enthusiasts, providing lessons & info.
 sidebarTitle: RopeLabs
 sidebarSummary: A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.
-slug: index
 ---
 
 ## Who we are

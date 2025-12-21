@@ -5,7 +5,6 @@ sidebarTitle: Rope & Safety
 sidebarSummary: Get practice-ready shibari rope and safety cutters on a pay-what-you-want basis at 39c3. Choose from jute, POSH, and safety equipment.
 backLinkHref: /39c3
 backLinkLabel: Back to 39c3
-slug: 39c3/rope-for-sale
 ---
 
 # Rope & Safety Kit for Sale at 39c3
