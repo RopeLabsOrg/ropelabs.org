@@ -1,6 +1,8 @@
 import { build } from 'simple-markdown-builder'
 import path from 'node:path'
 
+const CLEAN_FLAG = process.argv.includes('--clean')
+
 const config = {
   contentDir: 'content',
   outputDir: 'docs',
@@ -25,6 +27,7 @@ const config = {
     linkify: true,
     typographer: true,
   },
+  clean: CLEAN_FLAG,
 }
 
 const WATCH_FLAG = process.argv.includes('--watch')
@@ -34,6 +37,7 @@ if (WATCH_FLAG) {
   await startDevServer(config, {
     port: Number(process.env.PORT ?? 4173),
     outputDir: 'docs',
+    clean: CLEAN_FLAG,
   })
 } else {
   await build(config)

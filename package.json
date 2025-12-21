@@ -3,10 +3,11 @@
   "private": true,
   "scripts": {
     "dev": "bun scripts/build-pages.ts --watch",
-    "build:pages": "bun scripts/build-pages.ts"
+    "build:pages": "bun scripts/build-pages.ts",
+    "build:clean": "bun scripts/build-pages.ts --clean"
   },
   "dependencies": {
-    "simple-markdown-builder": "^0.3.1"
+    "simple-markdown-builder": "^0.3.2"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
