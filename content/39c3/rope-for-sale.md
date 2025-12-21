@@ -9,15 +9,15 @@ backLinkLabel: Back to 39c3
 
 # Rope & Safety Kit for Sale at 39c3
 
-Want to go home with rope you can use right away?  
+Want to go home with rope you can use right away?
 
-We offer practice-ready 8m shibari ropes and safety equipment on a **pay-what-you-want (donation) basis** at 39c3 so you can keep tying between workshops and jams.
+We offer practice-ready 8m shibari ropes and safety equipment on a **pay-what-you-want (donation) basis** so you can keep tying between workshops and jams.
 
 At a glance:
 
 - **Location:** RopeLabs assembly at 39c3
 - **Lengths:** 8m, ready to tie
-- **Pricing:** Pay-what-you-want (donation basis) - amounts listed below are our break evens, including labour
+- **Pricing:** Pay-what-you-want (donation basis) - amounts listed below are our break evens
 - **Extras:** Starter bundles and safety cutters
 
 ## What have with us:
@@ -25,19 +25,19 @@ At a glance:
 We focus on ropes that handle well for shibari and kinbaku.
 
 - **Ogawa Jute · 6 mm**  
-  Hand treated Japanese jute with a smooth, responsive feel.
+  Hand treated Japanese jute with a smooth, responsive feel.  
   **Our cost: €15 / 8m** (donate what you can afford)
 
 - **POSH · 5 mm**  
-  Low-stretch, washable synthetic that handles like jute, nice for regular practice and floor work.  
+  Low-stretch, washable synthetic that handles like natural rope. Known safe working limit.  
   **Our cost: €15 / 8m** (donate what you can afford)
 
 - **Basic safety scissors**  
-  Simple trauma shears for safe rope cutting. 18.5cm rescue scissor trauma gauze cutter emergency first aid shear.  
+  Simple trauma shears for safe rope cutting. 
   **Our cost: €3** (donate what you can afford)
 
 - **Raptor Emergency Response Shears**  
-  Professional-grade multifunctional scissors with strap cutter and glass breaker. Includes compatible holster.  
+  Professional-grade multifunctional scissors with strap cutter, glass breaker and holster.  
   **Our cost: €20** (donate what you can afford)
 
 Ask us at the assembly if you want us to set rope aside, or find us during workshops and jams.
@@ -46,7 +46,7 @@ Ask us at the assembly if you want us to set rope aside, or find us during works
 
 Find us at the RopeLabs assembly during 39c3:
 
-- During [assembly opening hours](/39c3).
+- During [assembly opening hours](/39c3#opening-hours).
 - After workshops.
 - During rope jams.
 
@@ -80,13 +80,16 @@ Here is the quick version if you just want to decide and go:
   - Tough and low-maintenance.
   - Washable, good for sweaty jams and frequent practice.
   - Slightly different feel but very forgiving for newer riggers.
+  - Known and measured working limit, good for suspension work.
+
+Stuck on how to choose? Natural rope is the high-end Japanese carbon steel blade. It needs care, but rewards you with feel, performance, and beauty. POSH or Hempex is the stainless steel workhorse. It handles rough use and you can throw it in the wash without worry. Both “cut” the same, so it comes down to what you enjoy looking after and working with.
 
 Not sure what suits your hands, body, or play style?  
 Find us at the assembly and we will happily nerd out about rope with you.
 
 ## Safety gear
 
-Rope is replaceable. Your partner is not.  
+Rope is replaceable. **Your partner is not.**  
 We expect proper safety cutters in the room for every scene.
 
 We normally keep a small stock of basic EMT / trauma shears at the assembly, so you can grab a pair with your rope.
@@ -109,4 +112,3 @@ If you need one for your records, we can arrange a charge with VAT.
 
 - [RopeLabs at 39c3](/39c3) - our assembly and workshops at Congress.
 - [RopeLabs Home](/) - learn more about who we are.
-
