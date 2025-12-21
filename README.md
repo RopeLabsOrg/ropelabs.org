@@ -7,14 +7,17 @@ Any `.md` file placed inside `content/` is rendered to a matching `.html` file u
 ## Local Development
 
 1. Install dependencies:
+
    ```bash
    bun install
    ```
 
 2. Start the development server (with auto-rebuild and live preview):
+
    ```bash
    bun run dev
    ```
+
    The dev server runs on `http://localhost:4173` by default (or set `PORT` environment variable).
 
 3. Build static pages for production:
