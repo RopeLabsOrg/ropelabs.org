@@ -4,7 +4,6 @@ description: A small group of Shibari enthusiasts, providing lessons & info.
 sidebarTitle: RopeLabs
 sidebarSummary: A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.
 slug: index
-output: index.html
 ---
 
 ## Who we are
@@ -77,7 +76,7 @@ You can follow us at:
 
 #### **Organisers**
 
-* **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc)
+* **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
 * **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
 * **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
 * **orangem** - [FetLife](https://fetlife.com/orangem)
