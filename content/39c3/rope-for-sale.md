@@ -29,8 +29,8 @@ We focus on ropes that handle well for shibari and kinbaku.
   Simple trauma shears for safe rope cutting.  
   **Our cost: €3** (donate what you can afford)
 
-- **Raptor Emergency Response Shears**  
-  Professional-grade multifunctional shears with strap cutter, glass breaker and holster.  
+- **Holding Emergency Response Shears**  
+  Heavy duty multifunctional shears with strap cutter, glass breaker and holster.  
   **Our cost: €20** (donate what you can afford)
 
 Ask at the assembly if you want us to set rope aside, or find us after workshops and jams.
