@@ -45,7 +45,7 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 ### Clothing and space
 
-- Minimum clothing is required at all times, in line with event rules.
+- Wear what you want. A minimum level of coverage is required at all times, as might be expected in a gym.
 - Shoes off on any matting or carpet.
 - Take care of each other. If you are unsure, ask an organiser or experienced community member.
 
@@ -53,6 +53,7 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 - Do not interrupt a scene unless you see a clear safety or consent issue.<sup>\*</sup>
 - You must have explicit permission from one of the organisers before using our suspension frame.
+- Keep cutting equipment suitable for rope within arms reach. 
 
 <sup>\*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
 
