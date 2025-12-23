@@ -45,7 +45,8 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 ### Clothing and space
 
-- Wear what you want. A minimum level of coverage is required at all times, as might be expected in a gym.
+- Wear what you want, though loose-fitting clothes may get in the way when tying.
+- A minimum level of coverage is required at all times, as might be expected in a gym.
 - Shoes off on any matting or carpet.
 - Take care of each other. If you are unsure, ask an organiser or experienced community member.
 
