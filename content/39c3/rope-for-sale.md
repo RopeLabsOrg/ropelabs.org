@@ -33,19 +33,25 @@ We focus on ropes that handle well for shibari and kinbaku.
   Heavy duty multifunctional shears with strap cutter, glass breaker and holster.  
   **Our cost: €20** (donate what you can afford)
 
+- **Rope Spikes**  
+  Shibari rope spikes in two styles: print spikes that leave decorative marks, and standard spikes for intense sensation.  
+  **Our cost: €1** (donate what you can afford)
+
 Ask at the assembly if you want us to set rope aside, or find us after workshops and jams.
 
-## How to buy or reserve
+## How to take or reserve
 
-Find us at the RopeLabs assembly:
+Find us at the RopeLabs assembly **starting from 4:30pm on day 1:**
 
-- During [assembly opening hours](/39c3#opening-hours).
 - **After** workshops.
 - During rope jams.
 
-All rope and safety equipment is sold on a **first come, first served basis**.
+No-one home? Message us on [mastodon](https://chaos.social/@RopeLabs) or you can call our DECT on JUTE (5883) or HEMP (4367).
 
-We will need to **hold back some of our rope stock** until after all of our workshops and rope jam to ensure we have enough for participants, so check back after those if we're out of stock when you visit.
+All rope and safety equipment is being given on a **first come, first served basis**.
+
+We will need to **hold back some of our rope stock** until after all of our workshops to ensure we have enough for participants, so check back on day 3 if we're out of stock when you visit.
+
 
 ### Pay-what-you-want (donation basis)
 
@@ -98,6 +104,26 @@ Good options for cutting rope safely include:
 - Other blunt-tipped cutters made to slice rope fast
 
 **Test your scissors** on a spare piece of your own rope. One firm, committed squeeze should give a clean cut. If it does not, upgrade your tool.
+
+## Rope Spikes
+
+We have shibari rope spikes available in two styles:
+
+### Print Spikes
+
+These spikes leave a decorative print or logo on your skin when pressed against it with rope. Perfect for adding visual interest to your scenes.
+
+We have two designs available:
+
+- **Fairydust (C3 Rocket)**  
+- **Kitty**  
+
+### Standard Spikes
+
+These spikes slide onto rope and create sharp pressure points that dig into the skin. For those who enjoy more intense sensation.
+
+All rope spikes are offered on the same **pay-what-you-want (donation) basis** as our other equipment. Our cost to produce was **€1**. 
+
 
 ### Receipts
 
