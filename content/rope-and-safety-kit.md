@@ -28,16 +28,16 @@ We recommend avoiding cheap “bondage rope” sold for decoration or novelty us
 
 ### Natural jute or hemp
 
-- Traditional kinbaku look and feel  
-- Light in the hand, with clear feedback  
-- Needs regular checking, airing, and care  
+- Traditional kinbaku look and feel
+- Light in the hand, with clear feedback
+- Needs regular checking, airing, and care
 
 ### POSH and other natural-behaving synthetics
 
-- Durable and low maintenance  
-- Washable, suitable for sweaty jams and frequent use  
-- Slightly different feel, very forgiving for newer riggers  
-- Known working limits, suitable for suspension when used correctly  
+- Durable and low maintenance
+- Washable, suitable for sweaty jams and frequent use
+- Slightly different feel, very forgiving for newer riggers
+- Known working limits, suitable for suspension when used correctly
 
 Natural rope is like a high-end carbon steel knife. It needs care but rewards attention with feel and precision. POSH or Hempex is the stainless steel workhorse. It tolerates rough use and easy cleaning. Both work well; the choice comes down to maintenance and preference.
 
@@ -45,17 +45,17 @@ Natural rope is like a high-end carbon steel knife. It needs care but rewards at
 
 For most students, a simple starter kit works best:
 
-- **Three matching 8 m lengths** for consistent handling  
+- **Three matching 8m lengths** for consistent handling
 - **A pair of dedicated safety scissors**
 
 If you are unsure whether to choose jute, POSH, or a mix, we are happy to talk it through based on how and who you tie with.
 
 ### Buying tips
 
-- Natural rope varies in strength; synthetic rope ships with tested load ratings  
-- Start with at least three matching lengths  
-- Ask whether natural rope is pre-treated or needs breaking in  
-- Avoid stretchy cord, decorative rope, or novelty kits  
+- Natural rope varies in strength; synthetic rope ships with tested load ratings
+- Start with at least three matching lengths
+- Ask whether natural rope is pre-treated or needs breaking in
+- Avoid stretchy cord, decorative rope, or novelty kits
 
 ## Safety gear
 
@@ -73,10 +73,10 @@ Use tools designed to cut rope fast and clean. Household scissors slip, cut poor
 
 Good options include:
 
-- **Trauma or EMT shears** – Affordable, blunt-tipped, and effective  
-- **Climbing utility shears** – Built to cut tough or loaded rope  
-- **Rope-cutter tools** – Circular blade cutters such as the CT Rope Cutter  
-- **Folding rescue shears** – Heavy-duty tools like the Leatherman Raptor or similar  
+- **Trauma or EMT shears** – Affordable, blunt-tipped, and effective
+- **Climbing utility shears** – Built to cut tough or loaded rope
+- **Rope-cutter tools** – Circular blade cutters such as the CT Rope Cutter
+- **Folding rescue shears** – Heavy-duty tools like the Leatherman Raptor or similar
 
 Test your cutters on your own rope. You should cut cleanly in one firm squeeze. If not, replace them.
 
@@ -90,15 +90,15 @@ At RopeLabs events, rope and safety equipment are available on a **pay-what-you-
 
 Typical items include:
 
-- **Ogawa Jute · 6 mm** – Hand-treated Japanese jute  
-- **POSH · 5 mm** – Washable synthetic with jute-like handling  
-- **Basic safety scissors** – Trauma-style shears  
-- **Folding emergency shears** – Heavy-duty cutters with holster  
+- **Ogawa Jute · 6 mm** – Hand-treated Japanese jute
+- **POSH · 5 mm** – Washable synthetic with jute-like handling
+- **Basic safety scissors** – Trauma-style shears
+- **Folding emergency shears** – Heavy-duty cutters with holster
 
 We sometimes also have shibari rope spikes:
 
-- **Print spikes** – Leave decorative pressure prints  
-- **Standard spikes** – Slide onto rope to create focused pressure  
+- **Print spikes** – Leave decorative pressure prints
+- **Standard spikes** – Slide onto rope to create focused pressure
 
 Check individual event pages for current availability, for example [39C3](/39c3#rope--safety-kit-for-sale).
 
@@ -112,13 +112,13 @@ We maintain a short list of trusted sellers. Suggestions via GitHub issues or pu
 
 #### Online retailers
 
-- [Kinbaku Lounge](https://kinbakulounge.dk) – Workshops and shop  
-- [Ellipsis Rope](https://www.instagram.com/ellipsisropeevents), Rotterdam – Community and hand-finished rope  
-- [Anatomie / Shibari Store EU](https://eu.shibaristore.com) – Curated kits and conditioning gear  
-- [Art of Ropes](https://www.artofropes.com/), Torhout – Natural and synthetic rope  
-- [Magnum Ursus Sadistic Tools](https://www.etsy.com/shop/mustbymagnumursus), Rummen – BDSM tools and rope  
-- [SM-speeltjes](https://sm-speeltjes.com), Kasterlee – BDSM toys and rope  
-- Search [FetLife](https://fetlife.com) for local rope sellers  
+- [Kinbaku Lounge](https://kinbakulounge.dk) – Workshops and shop
+- [Ellipsis Rope](https://www.instagram.com/ellipsisropeevents), Rotterdam – Community and hand-finished rope
+- [Anatomie / Shibari Store EU](https://eu.shibaristore.com) – Curated kits and conditioning gear
+- [Art of Ropes](https://www.artofropes.com/), Torhout – Natural and synthetic rope
+- [Magnum Ursus Sadistic Tools](https://www.etsy.com/shop/mustbymagnumursus), Rummen – BDSM tools and rope
+- [SM-speeltjes](https://sm-speeltjes.com), Kasterlee – BDSM toys and rope
+- Search [FetLife](https://fetlife.com) for local rope sellers
 
 #### Local rope spaces
 
@@ -136,15 +136,15 @@ POSH needs little treatment and softens with use. To speed this up, run it throu
 
 Our jute is worked and sealed to reduce fuzz and loose fibres. You can extend its life with gentle care:
 
-1. Apply a small amount of natural oil such as jojoba or camellia  
-2. Optionally add a light wax seal  
-3. Let regular use finish the softening  
+1. Apply a small amount of natural oil such as jojoba or camellia
+2. Optionally add a light wax seal
+3. Let regular use finish the softening
 
 Avoid:
 
-- Excess water  
-- High heat or flames  
-- Aggressive breaking-in methods  
+- Excess water
+- High heat or flames
+- Aggressive breaking-in methods
 
 Most jute uses jute batching oil and may retain a mild smell. Airing and handling reduce this over time.
 
@@ -152,5 +152,5 @@ Many community methods exist. Each trades strength for softness to some degree.
 
 ## Related pages
 
-- [Where to learn more](/#where-to-learn-more) – Rope spaces and workshops  
+- [Where to learn more](/#where-to-learn-more) – Rope spaces and workshops
 - [RopeLabs Home](/) – Who we are

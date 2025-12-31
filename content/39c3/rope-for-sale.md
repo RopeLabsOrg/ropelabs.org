@@ -52,7 +52,6 @@ All rope and safety equipment is being given on a **first come, first served bas
 
 We will need to **hold back some of our rope stock** until after all of our workshops to ensure we have enough for participants, so check back on day 3 if we're out of stock when you visit.
 
-
 ### Pay-what-you-want (donation basis)
 
 All rope and safety equipment is offered on a **pay-what-you-want (donation) basis**.
@@ -92,7 +91,7 @@ Find us at the assembly and we will happily nerd out about rope with you.
 
 ## Safety gear
 
-Rope is replaceable. **Your partner is not.**  
+Rope is replaceable. **Your partner is not.**
 
 Bring proper safety cutters for **every** scene.
 Keep them in an easy-to-grab place that **both** riggers and partner(s) are aware of.
@@ -115,15 +114,14 @@ These spikes leave a decorative print or logo on your skin when pressed against 
 
 We have two designs available:
 
-- **Fairydust (C3 Rocket)**  
-- **Kitty**  
+- **Fairydust (C3 Rocket)**
+- **Kitty**
 
 ### Standard Spikes
 
 These spikes slide onto rope and create sharp pressure points that dig into the skin. For those who enjoy more intense sensation.
 
-All rope spikes are offered on the same **pay-what-you-want (donation) basis** as our other equipment. Our cost to produce was **€1**. 
-
+All rope spikes are offered on the same **pay-what-you-want (donation) basis** as our other equipment. Our cost to produce was **€1**.
 
 ### Receipts
 

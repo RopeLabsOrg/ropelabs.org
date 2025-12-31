@@ -91,4 +91,3 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 - [Rope & Safety Kit](/rope-and-safety-kit) - where to buy rope and safety equipment
 - [RopeLabs Home](/) - learn more about who we are
-
