@@ -4,13 +4,15 @@
   "scripts": {
     "dev": "bun scripts/build-pages.ts --watch",
     "build:pages": "bun scripts/build-pages.ts",
-    "build:clean": "bun scripts/build-pages.ts --clean"
+    "build:clean": "bun scripts/build-pages.ts --clean",
+    "format": "bunx prettier --write ."
   },
   "dependencies": {
     "simple-markdown-builder": "^1.0.1"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1"
+    "@types/node": "^24.10.4",
+    "prettier": "^3.7.4"
   },
   "prettier": {
     "semi": false,

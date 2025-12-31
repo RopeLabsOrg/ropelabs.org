@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - "content/**"
-      - "docs/**"
-      - "scripts/**"
-      - "package.json"
-      - "bun.lockb"
-      - ".github/workflows/pages.yml"
+      - 'content/**'
+      - 'docs/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'bun.lockb'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
