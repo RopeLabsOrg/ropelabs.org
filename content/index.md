@@ -5,22 +5,15 @@ sidebarTitle: RopeLabs
 sidebarSummary: A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.
 ---
 
-## Who we are
+## 👥 Who we are
 
 We are a small, queer-friendly group of rope bondage (shibari) enthusiasts. We build a friendly, respectful space to explore rope safely, learn together, and support each other.
 
-Whether you're brand new or have years of experience, you're welcome at RopeLabs! We mostly run spaces at European hacker camps and community events.
-Recent events include EMF, Bornhack, FriedCamp, WHY2025, and Congress.
+Whether you're brand new or have years of experience, you're welcome at RopeLabs! We mostly run spaces at European hacker camps and community events. Recent events include EMF, Bornhack, FriedCamp, WHY2025, and Congress.
 
 Want to hang with us? Send a message (via [Fetlife](https://fetlife.com/RopeLabs) or [Mastodon](https://chaos.social/@RopeLabs)) so we can get you a group chat, or find us at an event and ask.
 
-## 🎪 Current Event: [39C3](/39c3)
-
-We are an assembly at 39C3 (Chaos Communication Congress) in Hamburg. We're running bondage workshops and a rope jam together with [KinkyGeeks.de](https://kinkygeeks.de), and we'll have rope and safety equipment for sale on a donation basis.
-
-[See our 39C3 page for details →](/39c3)
-
-## What we offer
+## 🎪 What we offer
 
 We host beginner lessons, peer-to-peer support, and open rope jams.
 
@@ -32,7 +25,7 @@ Come talk to us any time to learn more!
 
 Please **don't interrupt people who are actively tying**, questions are welcome once the tie is over and participants have had a moment to decompress.
 
-## Guidelines
+## 📋 Guidelines
 
 RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
@@ -58,8 +51,9 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 <sup>\*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
 
-## Previous Events
+## 📅 Previous Events
 
+- **[39C3](/39c3)** - December 2025
 - **[WHY2025](/why2025)** - August 2025
 - **Bornhack 2025** - July 2025
 - **FriedCamp 2024** - August 2024
@@ -67,7 +61,7 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 - **38C3** - December 2024
 - ...
 
-## Follow Us
+## 🔗 Follow Us
 
 You can follow us at:
 
@@ -84,3 +78,36 @@ You can follow us at:
 - **Diac** - [FetLife](https://fetlife.com/diac)
 - **Bart** - [FetLife](https://fetlife.com/w817)
 - **Kluthulhu** - [FetLife](https://fetlife.com/kluthulhu) - [Mastodon](https://infosec.exchange/@kluthulhu)
+
+## 🛒 Rope & Safety Kit
+
+At events, we often have rope and safety equipment available to take home on a donation basis. Outside of events, we have a list of places we recommend purchasing from, including our own rope space.
+
+[See our rope and safety kit guide →](/rope-and-safety-kit)
+
+## 🧑‍🏫 Where to learn more?
+
+We strongly recommend you find your closest rope space, peer rope or munch and visit in person. If this is not possible, there are plenty of good websites with online tutorials.
+
+[See our learning resources page →](/where-to-learn-more)
+
+## 🎶 Music at our Jams
+
+We curate playlists for our rope jams and events. You can find them on Spotify:
+
+- **[Fun](https://open.spotify.com/playlist/0vw0qaz1iJlHTtFvDOP4sb?si=c988c987db3b4851)** – Light and playful vibes
+- **[Floaty](https://open.spotify.com/playlist/1xVQgadAZ4r23aSN1tu5gU?si=ebd4e2e86e8c4bd7)** – Ambient and dreamy sounds
+- **[Upbeat](https://open.spotify.com/playlist/01En7ZtXUj63n2suDrCoUv?si=3fa080909f5248cb)** – Energetic and lively tracks
+- **[Heavy](https://open.spotify.com/playlist/63WdxRXXeP1rd2KffrNBUA?si=a29db337f2f04f8e)** – Intense and powerful music
+- **[Dark & Intense](https://open.spotify.com/playlist/11Xk1Ihc3d8Zr71wV0M72F?si=2f8a41d4911e4d43)** – Atmospheric and moody selections
+
+## 💰 How to donate?
+
+You can donate in the following ways:
+
+- **Cash** in our donation box at events and assemblies
+- **Bank transfer**: IE26SUMU99036512523634 (Name: Peg Productions)
+- **[Online via SumUp](https://pay.sumup.com/b2c/Q3LMF1GC)** (3% fee)
+- **Card payment** at events and assemblies (3% fee)
+
+All donations beyond the cost of our equipment go to the RopeLabs organization to fund future events and activities, not to individuals. For more information, see our [Donate page](/donate).
