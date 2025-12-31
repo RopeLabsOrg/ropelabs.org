@@ -4,10 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{TITLE}}</title>
-    <meta name="description" content="{{DESCRIPTION}}" />
-    {{NOINDEX}}
-    <link rel="canonical" href="{{CANONICAL_URL}}" />
-    {{HREFLANG_LINKS}}
     <link rel="icon" href="/img/favicon.ico" />
     <link
       rel="icon"
@@ -18,30 +14,19 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="manifest" href="/img/manifest.json" />
     <meta name="theme-color" content="#F8F0E0" />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{OG_URL}}" />
-    <meta property="og:title" content="{{OG_TITLE}}" />
-    <meta property="og:description" content="{{OG_DESCRIPTION}}" />
-    <meta property="og:image" content="{{OG_IMAGE}}" />
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{TWITTER_TITLE}}" />
-    <meta name="twitter:description" content="{{TWITTER_DESCRIPTION}}" />
-    <meta name="twitter:image" content="{{TWITTER_IMAGE}}" />
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              brand: "#1a1a1a",
-              accent: "#8b4513",
-              rope: "#d4a574",
+              brand: '#1a1a1a',
+              accent: '#8b4513',
+              rope: '#d4a574',
             },
           },
         },
-      };
+      }
     </script>
   </head>
   <body class="min-h-full bg-slate-50 text-slate-900">
@@ -99,40 +84,40 @@
       </footer>
     </div>
     <script>
-      (() => {
-        const targets = document.querySelectorAll("[data-email]");
+      ;(() => {
+        const targets = document.querySelectorAll('[data-email]')
         if (targets.length === 0) {
-          return;
+          return
         }
 
         const decode = (value) => {
-          if (!value) return "";
+          if (!value) return ''
           try {
-            return atob(value);
+            return atob(value)
           } catch {
-            return "";
+            return ''
           }
-        };
+        }
 
         targets.forEach((target) => {
           if (!(target instanceof HTMLElement)) {
-            return;
+            return
           }
-          const user = decode(target.dataset.user);
-          const domain = decode(target.dataset.domain);
+          const user = decode(target.dataset.user)
+          const domain = decode(target.dataset.domain)
           if (!user || !domain) {
-            return;
+            return
           }
 
-          const address = `${user}@${domain}`;
-          target.textContent = address;
+          const address = `${user}@${domain}`
+          target.textContent = address
 
-          const link = target.closest("[data-email-link]");
+          const link = target.closest('[data-email-link]')
           if (link instanceof HTMLAnchorElement) {
-            link.href = `mailto:${address}`;
+            link.href = `mailto:${address}`
           }
-        });
-      })();
+        })
+      })()
     </script>
     <!-- 100% privacy-first analytics -->
     <script
