@@ -7,9 +7,13 @@
     "build:clean": "bun scripts/build-pages.ts --clean"
   },
   "dependencies": {
-    "simple-markdown-builder": "^0.3.2"
+    "simple-markdown-builder": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
