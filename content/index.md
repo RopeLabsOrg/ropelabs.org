@@ -23,61 +23,11 @@ Our events welcome complete beginners, experienced riggers, rope bottoms, switch
 
 Come talk to us any time to learn more!
 
-Please **don't interrupt people who are actively tying**, questions are welcome once the tie is over and participants have had a moment to decompress.
+## 🎭 What it's like to attend
 
-## 📋 Guidelines
+When you arrive at a RopeLabs event, you'll find a welcoming space where people tie, watch, chat, and decompress. You can say hi to the organisers to get oriented, or simply find a spot to observe.
 
-RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
-
-### Consent and behaviour
-
-- Consent comes first. Always ask before touching, tying, or photographing someone.
-- No sexual activity. Our public events are non-sexual spaces.
-- Respect personal space and boundaries.
-- Outside of safety or consent concerns, do not interrupt other people's scenes.
-
-### Clothing and space
-
-- Wear what you want, though loose-fitting clothes may get in the way when tying.
-- A minimum level of coverage is required at all times, as might be expected in a gym.
-- Shoes off on any matting or carpet.
-- Take care of each other. If you are unsure, ask an organiser or experienced community member.
-
-### Safety and equipment
-
-- Do not interrupt a scene unless you see a clear safety or consent issue.<sup>\*</sup>
-- You must have explicit permission from one of the organisers before using our suspension frame.
-- Keep cutting equipment suitable for rope within arms reach. 
-
-<sup>\*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
-
-## 📅 Previous Events
-
-- **[39C3](/39c3)** - December 2025
-- **[WHY2025](/why2025)** - August 2025
-- **Bornhack 2025** - July 2025
-- **FriedCamp 2024** - August 2024
-- **EMF 2024** - June 2024
-- **38C3** - December 2024
-- ...
-
-## 🔗 Follow Us
-
-You can follow us at:
-
-#### **RopeLabs**
-
-- **RopeLabs** - [FetLife](https://fetlife.com/RopeLabs), [Mastodon](https://chaos.social/@RopeLabs)
-
-#### **Organisers**
-
-- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
-- **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
-- **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
-- **orangem** - [FetLife](https://fetlife.com/orangem)
-- **Diac** - [FetLife](https://fetlife.com/diac)
-- **Bart** - [FetLife](https://fetlife.com/w817)
-- **Kluthulhu** - [FetLife](https://fetlife.com/kluthulhu) - [Mastodon](https://infosec.exchange/@kluthulhu)
+People engage in rope scenes, practice techniques, and share knowledge. Organisers keep an eye on safety throughout. You can participate as much or as little as you want, watching is completely fine, and you can leave at any time.
 
 ## 🛒 Rope & Safety Kit
 
@@ -101,6 +51,24 @@ We curate playlists for our rope jams and events. You can find them on Spotify:
 - **[Heavy](https://open.spotify.com/playlist/63WdxRXXeP1rd2KffrNBUA?si=a29db337f2f04f8e)** – Intense and powerful music
 - **[Dark & Intense](https://open.spotify.com/playlist/11Xk1Ihc3d8Zr71wV0M72F?si=2f8a41d4911e4d43)** – Atmospheric and moody selections
 
+## 🔗 Follow Us
+
+You can follow us at:
+
+#### **RopeLabs**
+
+- **RopeLabs** - [FetLife](https://fetlife.com/RopeLabs), [Mastodon](https://chaos.social/@RopeLabs)
+
+#### **Organisers**
+
+- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
+- **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
+- **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
+- **orangem** - [FetLife](https://fetlife.com/orangem)
+- **Diac** - [FetLife](https://fetlife.com/diac)
+- **Bart** - [FetLife](https://fetlife.com/w817)
+- **Kluthulhu** - [FetLife](https://fetlife.com/kluthulhu) - [Mastodon](https://infosec.exchange/@kluthulhu)
+
 ## 💰 How to donate?
 
 You can donate in the following ways:
@@ -111,3 +79,38 @@ You can donate in the following ways:
 - **Card payment** at events and assemblies (3% fee)
 
 All donations beyond the cost of our equipment go to the RopeLabs organization to fund future events and activities, not to individuals. For more information, see our [Donate page](/donate).
+
+## 📋 Guidelines
+
+These rules exist to keep everyone safe and relaxed.
+
+RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
+
+### During scenes
+
+- Consent comes first. Always ask before touching, tying, or photographing someone.
+- No sexual activity. Our public events are non-sexual spaces.
+- Outside of safety or consent concerns, do not interrupt other people's scenes.
+- Do not interrupt a scene unless you see a clear safety or consent issue.<sup>\*</sup>
+
+<sup>\*</sup>Ideally grab one of the RopeLabs team if you have a specific safety or consent concern. Our team are experienced safety monitors and can help assess the risk.
+
+### In shared space
+
+- Respect personal space and boundaries.
+- Wear what you want, though loose-fitting clothes may get in the way when tying.
+- A minimum level of coverage is required at all times, as might be expected in a gym.
+- Shoes off on any matting or carpet.
+- Take care of each other. If you are unsure, ask an organiser or experienced community member.
+- You must have explicit permission from one of the organisers before using our suspension frame.
+- Keep cutting equipment suitable for rope within arms reach.
+
+## 📅 Previous Events
+
+- **[39C3](/39c3)** - December 2025
+- **[WHY2025](/why2025)** - August 2025
+- **Bornhack 2025** - July 2025
+- **FriedCamp 2024** - August 2024
+- **EMF 2024** - June 2024
+- **38C3** - December 2024
+- ...
