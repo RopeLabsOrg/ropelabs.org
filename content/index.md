@@ -51,6 +51,10 @@ We curate playlists for our rope jams and events. You can find them on Spotify:
 - **[Heavy](https://open.spotify.com/playlist/63WdxRXXeP1rd2KffrNBUA?si=a29db337f2f04f8e)** – Intense and powerful music
 - **[Dark & Intense](https://open.spotify.com/playlist/11Xk1Ihc3d8Zr71wV0M72F?si=2f8a41d4911e4d43)** – Atmospheric and moody selections
 
+If you have songs to suggest, **please add them to the below collaborative playlist** and if they're matching our vibe, we'll sort them in the correct one from the above list:
+
+ - **[RopeLabs: Collaborative Playlist](https://open.spotify.com/playlist/6ewzqR2f7hqvYxZOuQLNqt?si=8c759d76f1ff4ddc&pt=75501ea89651b0c22c2daa746915d957)** – Add your favourite songs for rope or play here
+
 ## 🔗 Follow Us
 
 You can follow us at:
