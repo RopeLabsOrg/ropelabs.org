@@ -66,7 +66,6 @@ You can follow us at:
 #### **Organisers**
 
 - **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
-- **KnottyLola** - [FetLife](https://fetlife.com/KnottyLola), [Mastodon](https://chaos.social/@lola)
 - **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
 - **orangem** - [FetLife](https://fetlife.com/orangem)
 - **Diac** - [FetLife](https://fetlife.com/diac)
