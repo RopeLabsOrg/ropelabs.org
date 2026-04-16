@@ -98,9 +98,9 @@ Keep them in an easy-to-grab place that **both** riggers and partner(s) are awar
 
 Good options for cutting rope safely include:
 
-- Trauma or EMT shears
-- Rock-climbing or rescue shears
-- Other blunt-tipped cutters made to slice rope fast
+- Trauma or EMT shears - note these blunt quickly and need replacing when heavily used
+- Rock-climbing or rescue shears - designed to last longer
+- Other blunt-tipped cutters made to slice through rope quickly
 
 **Test your scissors** on a spare piece of your own rope. One firm, committed squeeze should give a clean cut. If it does not, upgrade your tool.
 
