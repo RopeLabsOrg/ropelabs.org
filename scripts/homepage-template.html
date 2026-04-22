@@ -13,23 +13,41 @@
     />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="manifest" href="/img/manifest.json" />
-    <meta name="theme-color" content="#F8F0E0" />
+    <meta name="theme-color" content="#f7f3ea" />
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              brand: '#1a1a1a',
-              accent: '#8b4513',
-              rope: '#d4a574',
+              page: '#f7f3ea',
+              ink: '#1a2332',
+              muted: '#5a6372',
+              primary: '#5f6b3a',
+              'primary-hover': '#4d5730',
+              secondary: '#2c4a6b',
+              danger: '#8a2a2a',
+              brand: '#1a2332',
+              accent: '#5f6b3a',
+              rope: '#5f6b3a',
             },
           },
         },
       }
     </script>
+    <style>
+      body {
+        background: radial-gradient(circle at top, #fbf8f0 0%, #f7f3ea 60%);
+      }
+      a { color: #2c4a6b; }
+      a:hover { color: #5f6b3a; }
+      :focus-visible {
+        outline: 2px solid #2c4a6b;
+        outline-offset: 2px;
+      }
+    </style>
   </head>
-  <body class="min-h-full bg-slate-50 text-slate-900">
+  <body class="min-h-full text-ink">
     <div class="relative isolate overflow-hidden">
       <div class="mx-auto max-w-4xl px-6 py-16 lg:px-10">
         <div class="flex flex-col items-center text-center mb-12">
@@ -38,16 +56,16 @@
             alt="RopeLabs logo"
             class="mb-6 h-24 w-24"
           />
-          <h1 class="text-5xl font-bold text-brand mb-4">{{TITLE}}</h1>
-          <p class="text-xl text-slate-600 max-w-2xl">{{DESCRIPTION}}</p>
+          <h1 class="text-5xl font-bold text-ink mb-4">{{TITLE}}</h1>
+          <p class="text-xl text-muted max-w-2xl">{{DESCRIPTION}}</p>
         </div>
         <div
-          class="prose prose-lg prose-slate max-w-none mx-auto prose-a:text-accent prose-strong:text-brand prose-headings:text-brand prose-headings:font-semibold"
+          class="prose prose-lg prose-slate max-w-none mx-auto prose-a:text-secondary hover:prose-a:text-primary prose-strong:text-ink prose-headings:text-ink prose-headings:font-semibold"
         >
           {{BODY}}
         </div>
       </div>
-      <footer class="border-t border-accent/10 bg-brand text-white mt-16">
+      <footer class="border-t border-primary/10 bg-ink text-white mt-16">
         <div
           class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-4 px-6 py-6 text-sm"
         >
