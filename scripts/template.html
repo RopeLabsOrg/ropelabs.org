@@ -13,55 +13,73 @@
     />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="manifest" href="/img/manifest.json" />
-    <meta name="theme-color" content="#F8F0E0" />
+    <meta name="theme-color" content="#f7f3ea" />
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              brand: '#1a1a1a',
-              accent: '#8b4513',
-              rope: '#d4a574',
+              page: '#f7f3ea',
+              ink: '#1a2332',
+              muted: '#5a6372',
+              primary: '#5f6b3a',
+              'primary-hover': '#4d5730',
+              secondary: '#2c4a6b',
+              danger: '#8a2a2a',
+              brand: '#1a2332',
+              accent: '#5f6b3a',
+              rope: '#5f6b3a',
             },
           },
         },
       }
     </script>
+    <style>
+      body {
+        background: radial-gradient(circle at top, #fbf8f0 0%, #f7f3ea 60%);
+      }
+      a { color: #2c4a6b; }
+      a:hover { color: #5f6b3a; }
+      :focus-visible {
+        outline: 2px solid #2c4a6b;
+        outline-offset: 2px;
+      }
+    </style>
   </head>
-  <body class="min-h-full bg-slate-50 text-slate-900">
-    <div class="relative isolate overflow-hidden bg-white/95 backdrop-blur">
+  <body class="min-h-full text-ink">
+    <div class="relative isolate overflow-hidden">
       <div
         class="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:flex-row lg:gap-16 lg:px-10"
       >
         <aside class="lg:w-1/4">
           <a
             href="{{BACK_LINK_HREF}}"
-            class="inline-flex items-center gap-2 text-brand hover:underline"
+            class="inline-flex items-center gap-2 text-ink hover:text-primary hover:underline"
             aria-label="{{BACK_LINK_LABEL}}"
           >
             <span aria-hidden="true">←</span>
             {{BACK_LINK_LABEL}}
           </a>
           <div
-            class="mt-6 rounded-2xl border border-accent/30 bg-rope/20 p-6 text-sm shadow-sm"
+            class="mt-6 rounded-2xl border border-primary/20 bg-primary/5 p-6 text-sm shadow-sm"
           >
             <img
               src="/img/logo_small.png"
               alt="RopeLabs logo"
               class="mb-4 h-16 w-16"
             />
-            <p class="font-semibold text-brand">{{SIDEBAR_TITLE}}</p>
-            <p class="mt-2 text-slate-700">{{SIDEBAR_SUMMARY}}</p>
+            <p class="font-semibold text-ink">{{SIDEBAR_TITLE}}</p>
+            <p class="mt-2 text-muted">{{SIDEBAR_SUMMARY}}</p>
           </div>
         </aside>
         <main
-          class="prose prose-slate max-w-none lg:w-3/4 prose-a:text-accent prose-strong:text-brand prose-headings:text-brand"
+          class="prose prose-slate max-w-none lg:w-3/4 prose-a:text-secondary hover:prose-a:text-primary prose-strong:text-ink prose-headings:text-ink"
         >
           {{LANGUAGE_SWITCHER}} {{BODY}}
         </main>
       </div>
-      <footer class="border-t border-accent/10 bg-brand text-white">
+      <footer class="border-t border-primary/10 bg-ink text-white">
         <div
           class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6 text-sm"
         >
