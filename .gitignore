@@ -3,3 +3,4 @@ bun.lockb
 docs/**/*.html
 .DS_Store
 docs/sitemap.xml
+.gstack/
