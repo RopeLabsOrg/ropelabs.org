@@ -36,13 +36,28 @@
       }
     </script>
     <style>
-      body {
-        background: radial-gradient(circle at top, #fbf8f0 0%, #f7f3ea 60%);
+      :root {
+        --color-page: #f7f3ea;
+        --color-surface: rgba(255, 255, 255, 0.92);
+        --color-surface-strong: #ffffff;
+        --color-text: #1a2332;
+        --color-muted: #5a6372;
+        --color-border: rgba(26, 35, 50, 0.14);
+        --color-primary: #5f6b3a;
+        --color-primary-hover: #4d5730;
+        --color-secondary: #2c4a6b;
+        --color-highlight: #5f6b3a;
+        --color-danger: #8a2a2a;
+        --color-focus: #2c4a6b;
       }
-      a { color: #2c4a6b; }
-      a:hover { color: #5f6b3a; }
+      body {
+        background: radial-gradient(circle at top, #fbf8f0 0%, var(--color-page) 60%);
+        color: var(--color-text);
+      }
+      a { color: var(--color-secondary); }
+      a:hover { color: var(--color-primary); }
       :focus-visible {
-        outline: 2px solid #2c4a6b;
+        outline: 2px solid var(--color-focus);
         outline-offset: 2px;
       }
     </style>
