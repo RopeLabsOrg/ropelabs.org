@@ -108,3 +108,45 @@ cd ~/.claude/skills/gstack && ./setup --team
 
 Use /browse for all web browsing. Use ~/.claude/skills/gstack/... for gstack
 file paths.
+
+## GBrain Search Guidance (configured by /sync-gbrain)
+<!-- gstack-gbrain-search-guidance:start -->
+
+GBrain is set up and synced on this machine. The agent should prefer gbrain
+over Grep when the question is semantic or when you don't know the exact
+identifier yet.
+
+**This repo is pinned** to `ropelabs-org` via the `.gbrain-source` file in
+the repo root (kubectl-style context). Any `gbrain code-def`, `code-refs`,
+`code-callers`, `code-callees`, or `query` call from anywhere under this
+worktree routes to that source by default — no `--source` flag needed. Pass
+`--source <id>` to scope a query to a sibling repo.
+
+Seven rope-sites sources are indexed (markdown + code where applicable):
+
+| Source ID | Path | Pages |
+| --- | --- | --- |
+| `rope-sites-umbrella` | umbrella docs (`docs/` + root CLAUDE.md/DESIGN.md/README.md) | ~6 |
+| `tsurineko-org` | tsurineko.org | ~45 |
+| `shop-tsurineko-org` | shop.tsurineko.org | ~208 |
+| `shibari-events-tsurineko-org` | shibari-events.tsurineko.org | ~28 |
+| `ropelabs-org` | ropelabs.org | ~22 |
+| `ropelabs-be` | ropelabs.be | ~10 |
+| `project-nawa` | project-nawa (rope app) | ~239 |
+
+Prefer gbrain when:
+- "Where is X handled?" / semantic intent, no exact string yet:
+    `gbrain search "<terms>"` or `gbrain query "<question>"`
+- "Where is symbol Y defined?" / symbol-based code questions:
+    `gbrain code-def <symbol>` or `gbrain code-refs <symbol>`
+- "What calls Y?" / "What does Y depend on?":
+    `gbrain code-callers <symbol>` / `gbrain code-callees <symbol>`
+- Cross-ecosystem semantic questions ("which sites mention kuwairo?"):
+    `gbrain search "kuwairo"` — federated default surfaces all 7 sources
+
+Grep is still right for known exact strings, regex, multiline patterns, and
+file globs. Run `/sync-gbrain` after meaningful code changes; for ongoing
+auto-sync across all worktrees, run `gbrain autopilot --install` once per
+machine — gbrain's daemon handles incremental refresh on a schedule.
+
+<!-- gstack-gbrain-search-guidance:end -->
