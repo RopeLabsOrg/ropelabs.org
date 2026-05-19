@@ -9,6 +9,15 @@ model. Note: `ropelabs.be` is a separate, standalone Belgian presence with
 non-shibari wellness/movement content; do **not** propagate shibari, kink,
 or rope-bondage copy, imagery, or routing into `.be`.
 
+## Writing voice
+
+Canonical voice + topic-placement reference for all rope-sites copy
+lives at `../docs/writing-style.md`. Read it before drafting any
+content page. RopeLabs has a collective voice (we, the crew),
+targets hacker-camp attendees mostly new to rope, and is NOT an SEO
+target. Traffic comes from people meeting the collective at events
+and in classes, not from search.
+
 ## Stack
 
 - Bun runtime + TypeScript
