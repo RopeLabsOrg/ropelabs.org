@@ -21,7 +21,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 ### Belgium
 
 - [Tsuri Neko](https://tsurineko.org), Leuven (our rope space) - Tailored workshops and private lessons
-- [Peer Rope](https://sites.google.com/view/peerropeleuven/home), Leuven - peer learning and practice sessions
+- [Peer Rope](https://www.peerropeleuven.com), Leuven - peer learning and practice sessions
 - [Nicolas' Rope Dojo](https://dojo.a-nicolas.art), Brussels - shibari classes and workshops
 - [Shibari Lounge](https://www.shibarilounge.com/), Antwerp - workshops and community events (search [FetLife.com](https://fetlife.com) for current information)
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
