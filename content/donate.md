@@ -16,7 +16,6 @@ Your donations help us continue providing rope workshops, educational resources,
 You can donate in the following ways:
 
 - **Cash** in our donation box at events and assemblies
-- **Bank transfer**: IE26SUMU99036512523634 (Name: Peg Productions)
 - **[Online via SumUp](https://pay.sumup.com/b2c/Q3LMF1GC)** (3% fee)
 - **Card payment** at events and assemblies (3% fee)
 

@@ -66,7 +66,7 @@ You can follow us at:
 
 #### **Organisers**
 
-- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@pezmc) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
+- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
 - **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
 - **orangem** - [FetLife](https://fetlife.com/orangem)
 - **Diac** - [FetLife](https://fetlife.com/diac)
@@ -78,7 +78,6 @@ You can follow us at:
 You can donate in the following ways:
 
 - **Cash** in our donation box at events and assemblies
-- **Bank transfer**: IE26SUMU99036512523634 (Name: Peg Productions)
 - **[Online via SumUp](https://pay.sumup.com/b2c/Q3LMF1GC)** (3% fee)
 - **Card payment** at events and assemblies (3% fee)
 
