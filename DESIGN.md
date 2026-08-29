@@ -8,10 +8,8 @@ why copy-paste beats a shared package at this stage.
 
 ---
 
-Shared across the full five-site rope ecosystem: `tsurineko.org`,
-`shop.tsurineko.org`, `shibari-events.tsurineko.org`, `ropelabs.org`, and
-`ropelabs.be`. Reference implementation is International Shibari Events
-(`shibari-events.tsurineko.org`).
+Shared across the rope-sites design system. The full site list and the
+reference implementation live in the umbrella repo — see `../DESIGN.md`.
 
 **Palette philosophy:** Japanese craft references — not fetish cliché. Sumi
 (墨) is calligraphy ink. Kinari (生成り) is unbleached cotton/paper. Matcha
@@ -19,14 +17,14 @@ Shared across the full five-site rope ecosystem: `tsurineko.org`,
 
 ## Two visual families
 
-| Family | Sites | Accent |
-|---|---|---|
-| Tsuri Neko | tsurineko.org, shop.tsurineko.org, shibari-events.tsurineko.org | kakiiro `#c2562a` |
-| RopeLabs | **ropelabs.org (this repo)**, ropelabs.be | matcha `#5f6b3a` |
+| Family | Accent |
+|---|---|
+| Tsuri Neko | kakiiro `#c2562a` |
+| **RopeLabs (this repo)** | **matcha `#5f6b3a`** |
 
-RopeLabs shares anchors (page, ink, link) with the Tsuri Neko family and
-shifts only the accent. Matcha reads "growth / learning" without drifting
-off-family.
+RopeLabs shares anchors (page, ink, link) with the other family and shifts
+only the accent. Matcha reads "growth / learning" without drifting
+off-family. Per-site assignments live in the umbrella repo.
 
 ## Tokens (matcha variant)
 
@@ -118,14 +116,11 @@ iconography or copy for success states instead of a second green.
   `--color-surface-strong`
 - Alt text describes the thing, not "photo of thing"
 
-## Site-specific accents
+## This site's accent
 
 | Site | Primary | Register |
 |---|---|---|
-| tsurineko.org | kakiiro `#c2562a` | Brand / catalog |
-| shop.tsurineko.org | kakiiro `#c2562a` | Commerce CTA |
-| shibari-events.tsurineko.org | kakiiro `#c2562a` | Event discovery / catalog |
 | **ropelabs.org (this repo)** | **matcha `#5f6b3a`** | **Teaching (international)** |
-| ropelabs.be | matcha `#5f6b3a` | Standalone Belgian presence (non-shibari) |
 
-See `../docs/ecosystem.md` for the full strong/loose-link model.
+Accents for the other sites, and the full strong/loose-link model, live in
+the umbrella repo — see `../DESIGN.md` and `../docs/ecosystem.md`.
