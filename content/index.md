@@ -45,16 +45,17 @@ We strongly recommend you find your closest rope space, peer rope or munch and v
 
 We curate playlists for our rope jams and events. You can find them on Spotify:
 
-- **[Fun](https://open.spotify.com/playlist/0vw0qaz1iJlHTtFvDOP4sb?si=c988c987db3b4851)** – Light and playful vibes
-- **[Floaty](https://open.spotify.com/playlist/1xVQgadAZ4r23aSN1tu5gU?si=ebd4e2e86e8c4bd7)** – Ambient and dreamy sounds
-- **[Upbeat](https://open.spotify.com/playlist/01En7ZtXUj63n2suDrCoUv?si=3fa080909f5248cb)** – Energetic and lively tracks
-- **[Heavy](https://open.spotify.com/playlist/63WdxRXXeP1rd2KffrNBUA?si=a29db337f2f04f8e)** – Intense and powerful music
-- **[Dark & Intense](https://open.spotify.com/playlist/11Xk1Ihc3d8Zr71wV0M72F?si=2f8a41d4911e4d43)** – Atmospheric and moody selections
-- **[Tying Beats](https://open.spotify.com/playlist/1HOt1MPAfYZenZSPePC7Ox?si=Mw16g9kwQPCtVXgCbHbaIQ)** – Oriental beats and nature sounds for focused, heavier scenes
+- **[Fun](https://open.spotify.com/playlist/3JgnNEN9noR89yG1lBwg2h?si=ICV18RuhRc-9mP3l9f-JNA)** – Light and playful vibes
+- **[Floaty](https://open.spotify.com/playlist/5nyOJznQINKs0tDPKBrEau?si=yJuBREbeToWUDSQHJC5izQ)** – Ambient and dreamy sounds
+- **[Upbeat](https://open.spotify.com/playlist/1N5FU4DtyT9gkAr4mX6z4M?si=q-l4J80NQL2Tv9Cbxlf7Jw)** – Energetic and lively tracks
+- **[Heavy](https://open.spotify.com/playlist/7nMWqF3VZGk61hpLY931bB?si=oQpv-DcIRpeBiVWurET4iA)** – Intense and powerful music
+- **[Dark & Intense](https://open.spotify.com/playlist/7Hu0g7J2XfoT39KOGjTzz5?si=pztjfn8QRKCSrPh4-j9fFA)** – Atmospheric and moody selections
+- **[Tying Beats](https://open.spotify.com/playlist/2PTDlO6WEYkaePLnbiFaPk?si=ZgJQrk41RjCVPoYUihVnGA)** – Oriental beats and nature sounds for focused, heavier scenes
+- **[Viking](https://open.spotify.com/playlist/64DJRhDC8TQlUXxqORmL2G?si=7g6nwT4NTTqXT1wk02GBPA)** – Nordic folk and drums for steady, driving scenes
 
 If you have songs to suggest, **please add them to the below collaborative playlist** and if they're matching our vibe, we'll sort them in the correct one from the above list:
 
- - **[RopeLabs: Collaborative Playlist](https://open.spotify.com/playlist/6ewzqR2f7hqvYxZOuQLNqt?si=8c759d76f1ff4ddc&pt=75501ea89651b0c22c2daa746915d957)** – Add your favourite songs for rope or play here
+- **[RopeLabs: Collaborative Playlist](https://open.spotify.com/playlist/0e45XiSqhYMgufkeodNhiD?si=g65NmkT0R3ODOugAFyYzCA)** – Add your favourite songs for rope or play here
 
 ## 🔗 Follow Us
 
@@ -66,7 +67,7 @@ You can follow us at:
 
 #### **Organisers**
 
-- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe), [Mastodon](https://chaos.social/@RopeLabs) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
+- **DoodleMe** - [FetLife](https://fetlife.com/DoodleMe) - [Tsuri Neko Rope Space](https://tsurineko.org), Leuven, Belgium
 - **simon_fredrikson** - [FetLife](https://fetlife.com/simon_fredrikson)
 - **orangem** - [FetLife](https://fetlife.com/orangem)
 - **Diac** - [FetLife](https://fetlife.com/diac)
@@ -78,8 +79,6 @@ You can follow us at:
 You can donate in the following ways:
 
 - **Cash** in our donation box at events and assemblies
-- **Bank transfer**: [redacted — ask us] (Name: RopeLabs)
-- **[Online via SumUp](https://pay.sumup.com/b2c/Q3LMF1GC)** (3% fee)
 - **Card payment** at events and assemblies (3% fee)
 
 All donations beyond the cost of our equipment go to the RopeLabs organization to fund future events and activities, not to individuals. For more information, see our [Donate page](/donate).
