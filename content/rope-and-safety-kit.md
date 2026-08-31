@@ -112,11 +112,11 @@ We maintain a short list of trusted sellers. Suggestions via GitHub issues or pu
 
 #### Online retailers
 
-- [Kinbaku Lounge](https://kinbakulounge.dk) – Copenhagen, Denmark. Workshops and shop
+- [Kinbaku Lounge](https://kinbakulounge.dk) – Copenhagen, Denmark. Workshops and shop; webshop currently delivers within Denmark only
 - [Ellipsis Rope](https://www.instagram.com/ellipsisropeevents) – Rotterdam, Netherlands. Community and hand-finished rope
 - [Anatomie / Shibari Store EU](https://eu.shibaristore.com) – London, UK / EU. Curated kits and conditioning gear
-- [Art of Ropes](https://www.artofropes.com/) – Torhout, Belgium. Workshops plus jute and synthetic rope
-- [Magnum Ursus Sadistic Tools](https://www.etsy.com/shop/mustbymagnumursus) – Rummen, Belgium. BDSM tools and rope
+- [Art of Ropes](https://www.artofropes.com/) – Torhout, Belgium. Workshops plus rope, though their natural-fibre line is being wound down
+- [Magnum Ursus Sadistic Tools](https://www.etsy.com/shop/mustbymagnumursus) – Hasselt, Belgium. BDSM tools and rope
 - [SM-speeltjes](https://sm-speeltjes.com) – Kasterlee, Belgium. BDSM toys and rope
 - Search [FetLife](https://fetlife.com) for local rope sellers
 
