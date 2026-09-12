@@ -5,7 +5,8 @@
     "dev": "bun scripts/build-pages.ts --watch",
     "build:pages": "bun scripts/build-pages.ts",
     "build:clean": "bun scripts/build-pages.ts --clean",
-    "format": "bunx prettier --write ."
+    "format": "bunx prettier --write .",
+    "test": "bun scripts/build-pages.ts --clean"
   },
   "dependencies": {
     "simple-markdown-builder": "^1.0.1"

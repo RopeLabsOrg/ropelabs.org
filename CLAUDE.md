@@ -32,6 +32,19 @@ and in classes, not from search.
 Scripts: `bun run dev` (watch), `bun run build:pages`, `bun run build:clean`,
 `bun run format`.
 
+## Testing
+
+`bun run test` — `build:pages --clean`. It renders every page and fails on any
+internal link that does not resolve. `--clean` is load-bearing: generated HTML
+is gitignored and never pruned, so without it a stale `docs/*.html` left over
+from a deleted page satisfies a link that would 404 on a fresh Pages checkout.
+
+External links are NOT checked, so the three event links on the homepage can rot
+silently. Nothing in CI runs this — `pages.yml` fires only on push to `main`, so
+a broken internal link merges green and then fails the deploy, leaving the live
+site frozen on the previous build. There is no unit-test framework;
+`scripts/build-pages.ts` is untested.
+
 ## Content layout
 
 - `content/index.md` — homepage
