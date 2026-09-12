@@ -128,7 +128,10 @@ All rope spikes are offered on the same **pay-what-you-want (donation) basis** a
 As everything is on a donation basis, receipts are not available.
 If you need one for your records, we can arrange a charge with VAT.
 
+Reading this after Congress? The same Ogawa jute, POSH and shears are stocked year-round by [Tsuri Neko](https://shop.tsurineko.org/en), the Leuven rope space one of our organisers runs.
+
 ## Related pages
 
 - [RopeLabs at 39c3](/39c3) - our assembly and workshops at Congress.
+- [Rope & Safety Kit](/rope-and-safety-kit) - what to look for and where to buy it, year-round.
 - [RopeLabs Home](/) - learn more about who we are.

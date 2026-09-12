@@ -31,7 +31,7 @@ People engage in rope scenes, practice techniques, and share knowledge. Organise
 
 ## 🛒 Rope & Safety Kit
 
-At events, we often have rope and safety equipment available to take home on a donation basis. Outside of events, we have a list of places we recommend purchasing from, including our own rope space.
+At events, we often have rope and safety equipment available to take home on a donation basis. Outside of events, we have a list of places we recommend purchasing from, including [our own rope space in Leuven](https://shop.tsurineko.org/en).
 
 [See our rope and safety kit guide →](/rope-and-safety-kit)
 
