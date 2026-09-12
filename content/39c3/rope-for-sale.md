@@ -39,8 +39,6 @@ We focus on ropes that handle well for shibari and kinbaku.
 
 Ask at the assembly if you want us to set rope aside, or find us after workshops and jams.
 
-Reading this after Congress? The same Ogawa jute, POSH and shears are stocked year-round by [Tsuri Neko](https://shop.tsurineko.org/en), the Leuven rope space one of our organisers runs.
-
 ## How to take or reserve
 
 Find us at the RopeLabs assembly **starting from 4:30pm on day 1:**
@@ -129,6 +127,8 @@ All rope spikes are offered on the same **pay-what-you-want (donation) basis** a
 
 As everything is on a donation basis, receipts are not available.
 If you need one for your records, we can arrange a charge with VAT.
+
+Reading this after Congress? The same Ogawa jute, POSH and shears are stocked year-round by [Tsuri Neko](https://shop.tsurineko.org/en), the Leuven rope space one of our organisers runs.
 
 ## Related pages
 
