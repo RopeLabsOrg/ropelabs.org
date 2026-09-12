@@ -112,7 +112,7 @@ We maintain a short list of trusted sellers. Suggestions via GitHub issues or pu
 
 #### Our rope space
 
-- **[Tsuri Neko](https://shop.tsurineko.org/en)** – Leuven, Belgium, run by one of our organisers. The same Ogawa jute, POSH and shears we hand out at events, finished in Leuven. Ships across the EU, not outside it; free pickup in Leuven.
+- **[Tsuri Neko](https://shop.tsurineko.org/en)** – Leuven, Belgium, run by one of our organisers. The same Ogawa jute and POSH we hand out at events; ships within the EU only.
 
 #### Online retailers
 
