@@ -30,7 +30,7 @@ and in classes, not from search.
 - `.claude/hooks/` — pre-tool gstack-check hook
 
 Scripts: `bun run dev` (watch), `bun run build:pages`, `bun run build:clean`,
-`bun run format`.
+`bun run test`, `bun run format`.
 
 ## Testing
 
@@ -44,6 +44,8 @@ silently. Nothing in CI runs this — `pages.yml` fires only on push to `main`, 
 a broken internal link merges green and then fails the deploy, leaving the live
 site frozen on the previous build. There is no unit-test framework;
 `scripts/build-pages.ts` is untested.
+
+Deferred infrastructure work is tracked in `TODOS.md`.
 
 ## Content layout
 
