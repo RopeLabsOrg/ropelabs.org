@@ -6,9 +6,11 @@
 
 **What:** Add a `pull_request`-triggered GitHub Actions job that runs `bun run test`.
 
-**Why:** `bun run test` renders every page and fails on any internal link that
-does not resolve, but nothing runs it on GitHub. `.github/workflows/pages.yml`
-triggers only on push to `main`. A PR with a broken internal link merges green,
+**Why:** `bun run test` renders every page and fails on any relative internal
+link that does not resolve, but nothing runs it on a pull request.
+`.github/workflows/pages.yml` triggers only on push to `main` or manual
+dispatch, and its `build:pages` step runs the same check after the merge rather
+than before it. A PR with a broken internal link merges green,
 the `build` job then throws, `deploy` (which `needs: build`) never runs, and
 GitHub Pages keeps serving the previous build. The change reads as merged and
 the live site silently never updates.
