@@ -21,9 +21,20 @@ Any `.md` file placed inside `content/` is rendered to a matching `.html` file u
    The dev server runs on `http://localhost:4173` by default (or set `PORT` environment variable).
 
 3. Build static pages for production:
+
    ```bash
    bun run build:pages
    ```
+
+4. Check that every internal link resolves:
+
+   ```bash
+   bun run test
+   ```
+
+   This rebuilds every page from scratch and fails on any relative internal
+   link that does not resolve. Absolute URLs are skipped, including same-site
+   ones like `https://ropelabs.org/39c3`.
 
 ## Creating Pages
 
@@ -31,7 +42,7 @@ Any `.md` file placed inside `content/` is rendered to a matching `.html` file u
    - `title`, `description`
    - `sidebarTitle`, `sidebarSummary`
    - `backLinkHref`, `backLinkLabel`
-   - `slug` (output filename) or `output` (full relative path)
+   - `slug` (output filename; may include a path)
 
 2. The HTML files are generated automatically in the `docs/` directory.
 

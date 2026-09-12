@@ -30,14 +30,33 @@ and in classes, not from search.
 - `.claude/hooks/` — pre-tool gstack-check hook
 
 Scripts: `bun run dev` (watch), `bun run build:pages`, `bun run build:clean`,
-`bun run format`.
+`bun run test`, `bun run format`.
+
+## Testing
+
+`bun run test` — `build:pages --clean`. It renders every page and fails on any
+relative internal link that does not resolve. `--clean` is load-bearing:
+generated HTML is gitignored and never pruned, so without it a stale
+`docs/*.html` left over from a deleted page satisfies a link that would 404 on
+a fresh Pages checkout.
+
+Absolute URLs are NOT checked, `https://ropelabs.org/…` included, so the three
+event links on the homepage can rot silently and a same-site link written in
+full skips the check. No PR job runs it either. `pages.yml` fires on push to
+`main` or manual dispatch, and its `build:pages` step runs the same link check,
+so a broken internal link merges green, fails the deploy, and leaves the live
+site frozen on the previous build. There is no unit-test framework;
+`scripts/build-pages.ts` is untested.
+
+Deferred infrastructure work is tracked in `TODOS.md`.
 
 ## Content layout
 
 - `content/index.md` — homepage
-- `content/donate.md`, `content/why2025.md`,
+- `content/donate.md`, `content/why2025.md`, `content/where-to-learn-more.md`,
   `content/rope-and-safety-kit.md` — core pages
-- `content/39c3/` — event-specific subfolder
+- `content/39c3.md` + `content/39c3/` — event page and its subfolder; nested
+  markdown renders recursively
 
 ## Design language
 
