@@ -9,7 +9,7 @@ sidebarSummary: A small, queer-friendly group of rope enthusiasts, building a fr
 
 We are a small, queer-friendly group of rope bondage (shibari) enthusiasts. We build a friendly, respectful space to explore rope safely, learn together, and support each other.
 
-Whether you're brand new or have years of experience, you're welcome at RopeLabs! We mostly run spaces at European hacker camps and community events. Recent events include EMF, Bornhack, FriedCamp, WHY2025, and Congress.
+Whether you're brand new or have years of experience, you're welcome at RopeLabs! We mostly run spaces at European hacker camps and community events. Recent events include EMF, Bornhack, Fri3d Camp, WHY2025, and Congress.
 
 Want to hang with us? Send a message (via [Fetlife](https://fetlife.com/RopeLabs) or [Mastodon](https://chaos.social/@RopeLabs)) so we can get you a group chat, or find us at an event and ask.
 
@@ -110,10 +110,13 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 
 ## 📅 Previous Events
 
+- **[Fri3d Camp 2026](https://content.fri3d.be/fri3dcamp2026/talk/CWULCX/)** - August 2026
+- **[EMF 2026](https://www.emfcamp.org/schedule/2026/265-beginner-shibari-workshop)** - July 2026
+- **[Bornhack 2026](https://www.bornhack.dk/bornhack-2026/program/shibari-101/)** - July 2026
 - **[39C3](/39c3)** - December 2025
 - **[WHY2025](/why2025)** - August 2025
 - **Bornhack 2025** - July 2025
-- **FriedCamp 2024** - August 2024
-- **EMF 2024** - June 2024
 - **38C3** - December 2024
+- **Fri3d Camp 2024** - August 2024
+- **EMF 2024** - June 2024
 - ...
