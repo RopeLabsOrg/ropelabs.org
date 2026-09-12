@@ -41,14 +41,16 @@ We recommend avoiding cheap “bondage rope” sold for decoration or novelty us
 
 Natural rope is like a high-end carbon steel knife. It needs care but rewards attention with feel and precision. POSH or Hempex is the stainless steel workhorse. It tolerates rough use and easy cleaning. Both work well; the choice comes down to maintenance and preference.
 
+If you want the long version, Tsuri Neko's handbook sets [POSH against jute](https://shop.tsurineko.org/en/handbook/posh-vs-jute) in detail.
+
 ### Starter bundles
 
 For most students, a simple starter kit works best:
 
-- **Three matching 8m lengths** for consistent handling
-- **A pair of dedicated safety scissors**
+- **Three matching 8 m lengths** for consistent handling
+- **A pair of EMT shears**
 
-If you are unsure whether to choose jute, POSH, or a mix, we are happy to talk it through based on how and who you tie with.
+If you are unsure whether to choose jute, POSH, or a mix, we are happy to talk it through based on how and who you tie with. The handbook covers the same question in writing, including [why three ropes and 8 m](https://shop.tsurineko.org/en/handbook/first-shibari-class-kit).
 
 ### Buying tips
 
@@ -67,7 +69,7 @@ Always keep dedicated safety cutters within arm’s reach. In an emergency, cutt
 
 Bring proper cutters for **every** scene and keep them in a fixed, known location that everyone involved can reach.
 
-### Scissors
+### Cutters
 
 Use tools designed to cut rope fast and clean. Household scissors slip, cut poorly, and increase injury risk.
 
@@ -82,6 +84,8 @@ Test your cutters on your own rope. You should cut cleanly in one firm squeeze. 
 
 Check cutters regularly for rust, looseness, or dull blades.
 
+The handbook works through [which cutters to carry](https://shop.tsurineko.org/en/handbook/safety-cutters) tool by tool, including what each one fails at.
+
 ## Where to buy
 
 ### At events
@@ -92,8 +96,8 @@ Typical items include:
 
 - **Ogawa Jute · 6 mm** – Hand-treated Japanese jute
 - **POSH · 5 mm** – Washable synthetic with jute-like handling
-- **Basic safety scissors** – Trauma-style shears
-- **Folding emergency shears** – Heavy-duty cutters with holster
+- **EMT shears** – Blunt-tipped trauma shears
+- **Folding heavy-duty shears** – Strap cutter, glass breaker, holster
 
 We sometimes also have shibari rope spikes:
 
@@ -108,7 +112,7 @@ We maintain a short list of trusted sellers. Suggestions via GitHub issues or pu
 
 #### Our rope space
 
-- **[Tsuri Neko](https://tsurineko.org/rope-for-sale-leuven)** – Leuven, Belgium. Practice-ready 8m ropes and safety cutters.
+- **[Tsuri Neko](https://shop.tsurineko.org/en)** – Leuven, Belgium, run by one of our organisers. The same Ogawa jute, POSH and shears we hand out at events, finished in Leuven. Ships across the EU, not outside it; free pickup in Leuven.
 
 #### Online retailers
 
@@ -146,11 +150,11 @@ Avoid:
 - High heat or flames
 - Aggressive breaking-in methods
 
-Most jute uses jute batching oil and may retain a mild smell. Airing and handling reduce this over time.
+Most jute uses [jute batching oil](https://shop.tsurineko.org/en/handbook/jute-batching-oil) and may retain a mild smell. Airing and handling reduce this over time.
 
-Many community methods exist. Each trades strength for softness to some degree.
+Many community methods exist. Each trades strength for softness to some degree. The handbook has a longer piece on [what jute wants week to week](https://shop.tsurineko.org/en/handbook/rope-care).
 
 ## Related pages
 
-- [Where to learn more](/#where-to-learn-more) – Rope spaces and workshops
+- [Where to learn more](/where-to-learn-more) – Rope spaces, workshops and online tutorials
 - [RopeLabs Home](/) – Who we are

@@ -20,7 +20,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 ### Belgium
 
-- [Tsuri Neko](https://tsurineko.org), Leuven (our rope space) - Tailored workshops and private lessons
+- [Tsuri Neko](https://tsurineko.org), Leuven (our rope space) - Private lessons, tailored workshops and open [rope jams](https://tsurineko.org/rope-jams-leuven)
 - [Peer Rope](https://www.peerropeleuven.com), Leuven - peer learning and practice sessions
 - [Nicolas' Rope Dojo](https://dojo.a-nicolas.art), Brussels - shibari classes and workshops
 - [Shibari Lounge](https://www.shibarilounge.com/), Antwerp - workshops and community events (search [FetLife.com](https://fetlife.com) for current information)
@@ -78,7 +78,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 ## Online Suggestions
 
-- [TsuriNeko.org](https://tsurineko.org) - mix of free and paid lessons (our rope space)
+- [Tsuri Neko](https://tsurineko.org) - mix of free and paid lessons (our rope space), plus a free written [handbook](https://shop.tsurineko.org/en/handbook) on choosing, using and caring for rope
 - [Crash Restraint](https://crash-restraint.com) - free tutorials and comprehensive learning resources
 - [The Duchy](https://theduchy.com) - curated paid lessons and tutorials
 - [Shibari Study](https://shibaristudy.com) - subscription video library with extensive technique coverage

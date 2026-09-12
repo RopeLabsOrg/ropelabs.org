@@ -39,6 +39,8 @@ We focus on ropes that handle well for shibari and kinbaku.
 
 Ask at the assembly if you want us to set rope aside, or find us after workshops and jams.
 
+Reading this after Congress? The same Ogawa jute, POSH and shears are stocked year-round by [Tsuri Neko](https://shop.tsurineko.org/en), the Leuven rope space one of our organisers runs.
+
 ## How to take or reserve
 
 Find us at the RopeLabs assembly **starting from 4:30pm on day 1:**
@@ -131,4 +133,5 @@ If you need one for your records, we can arrange a charge with VAT.
 ## Related pages
 
 - [RopeLabs at 39c3](/39c3) - our assembly and workshops at Congress.
+- [Rope & Safety Kit](/rope-and-safety-kit) - what to look for and where to buy it, year-round.
 - [RopeLabs Home](/) - learn more about who we are.
