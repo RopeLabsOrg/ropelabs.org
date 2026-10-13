@@ -20,7 +20,7 @@ You can donate in the following ways:
 
 ## Where Your Money Goes
 
-All donations go to the RopeLabs organization to fund future events and activities, not to individuals.
+All donations go to the RopeLabs organisation to fund future events and activities, not to individuals.
 
 Your contributions help us:
 

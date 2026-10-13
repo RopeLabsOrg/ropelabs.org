@@ -1,6 +1,6 @@
 ---
 title: RopeLabs
-description: A small group of Shibari enthusiasts, providing lessons & info.
+description: A small group of shibari enthusiasts, providing lessons & info.
 sidebarTitle: RopeLabs
 sidebarSummary: A small, queer-friendly group of rope enthusiasts, building a friendly and respectful environment for exploring rope safely and openly.
 ---
@@ -11,7 +11,7 @@ We are a small, queer-friendly group of rope bondage (shibari) enthusiasts. We b
 
 Whether you're brand new or have years of experience, you're welcome at RopeLabs! We mostly run spaces at European hacker camps and community events. Recent events include EMF, Bornhack, Fri3d Camp, WHY2025, and Congress.
 
-Want to hang with us? Send a message (via [Fetlife](https://fetlife.com/RopeLabs) or [Mastodon](https://chaos.social/@RopeLabs)) so we can get you a group chat, or find us at an event and ask.
+Want to hang with us? Send a message (via [FetLife](https://fetlife.com/RopeLabs) or [Mastodon](https://chaos.social/@RopeLabs)) so we can get you a group chat, or find us at an event and ask.
 
 ## 🎪 What we offer
 
@@ -27,7 +27,7 @@ Come talk to us any time to learn more!
 
 When you arrive at a RopeLabs event, you'll find a welcoming space where people tie, watch, chat, and decompress. You can say hi to the organisers to get oriented, or simply find a spot to observe.
 
-People engage in rope scenes, practice techniques, and share knowledge. Organisers keep an eye on safety throughout. You can participate as much or as little as you want, watching is completely fine, and you can leave at any time.
+People engage in rope scenes, practise techniques, and share knowledge. Organisers keep an eye on safety throughout. You can participate as much or as little as you want, watching is completely fine, and you can leave at any time.
 
 ## 🛒 Rope & Safety Kit
 
@@ -81,7 +81,7 @@ You can donate in the following ways:
 - **Cash** in our donation box at events and assemblies
 - **Card payment** at events and assemblies (3% fee)
 
-All donations beyond the cost of our equipment go to the RopeLabs organization to fund future events and activities, not to individuals. For more information, see our [Donate page](/donate).
+All donations beyond the cost of our equipment go to the RopeLabs organisation to fund future events and activities, not to individuals. For more information, see our [Donate page](/donate).
 
 ## 📋 Guidelines
 
@@ -106,7 +106,7 @@ RopeLabs is a queer-friendly, sex-positive, and inclusive environment.
 - Shoes off on any matting or carpet.
 - Take care of each other. If you are unsure, ask an organiser or experienced community member.
 - You must have explicit permission from one of the organisers before using our suspension frame.
-- Keep cutting equipment suitable for rope within arms reach.
+- Keep safety cutters within arm’s reach.
 
 ## 📅 Previous Events
 
