@@ -1,6 +1,6 @@
 ---
 title: Rope & Safety Kit | RopeLabs
-description: Where to buy practice-ready shibari rope and safety equipment. At events, rope is available on a donation basis. Outside of events, here are places we trust for quality gear.
+description: Where to buy ready-to-tie shibari rope and safety equipment. At events, rope is available on a donation basis. Outside of events, here are places we trust for quality gear.
 sidebarTitle: Rope & Safety
 sidebarSummary: Rope and safety gear at events on a donation basis, plus trusted places to buy quality shibari rope and cutters.
 backLinkHref: /
@@ -11,7 +11,7 @@ backLinkLabel: Back to RopeLabs
 
 At events, we often have rope and safety equipment available to take home on a **pay-what-you-want (donation) basis**. Contributions help fund workshops and shared equipment.
 
-Outside of events, this page lists the types of rope we recommend and trusted places to buy practice-ready gear.
+Outside of events, this page lists the types of rope we recommend and trusted places to buy ready-to-tie rope and safety gear.
 
 ## What to look for
 
@@ -37,13 +37,13 @@ We recommend avoiding cheap “bondage rope” sold for decoration or novelty us
 - Durable and low maintenance
 - Washable, suitable for sweaty jams and frequent use
 - Slightly different feel, very forgiving for newer riggers
-- Known working limits, suitable for suspension when used correctly
+- Known breaking strength, suitable for suspension when used correctly
 
 Natural rope is like a high-end carbon steel knife. It needs care but rewards attention with feel and precision. POSH or Hempex is the stainless steel workhorse. It tolerates rough use and easy cleaning. Both work well; the choice comes down to maintenance and preference.
 
 If you want the long version, Tsuri Neko's handbook sets [POSH against jute](https://shop.tsurineko.org/en/handbook/posh-vs-jute) in detail.
 
-### Starter bundles
+### Starter kits
 
 For most students, a simple starter kit works best:
 
@@ -75,10 +75,10 @@ Use tools designed to cut rope fast and clean. Household scissors slip, cut poor
 
 Good options include:
 
-- **Trauma or EMT shears** – Affordable, blunt-tipped, and effective
+- **EMT shears** – Affordable, blunt-tipped, and effective
 - **Climbing utility shears** – Built to cut tough or loaded rope
 - **Rope-cutter tools** – Circular blade cutters such as the CT Rope Cutter
-- **Folding rescue shears** – Heavy-duty tools like the Leatherman Raptor or similar
+- **Folding shears** – Tools like the Leatherman Raptor or similar
 
 Test your cutters on your own rope. You should cut cleanly in one firm squeeze. If not, replace them.
 
@@ -94,10 +94,10 @@ At RopeLabs events, rope and safety equipment are available on a **pay-what-you-
 
 Typical items include:
 
-- **Ogawa Jute · 6 mm** – Hand-treated Japanese jute
+- **Ogawa jute · 6 mm** – Hand-treated Japanese jute
 - **POSH · 5 mm** – Washable synthetic with jute-like handling
-- **EMT shears** – Blunt-tipped trauma shears
-- **Folding heavy-duty shears** – Strap cutter, glass breaker, holster
+- **EMT shears** – Blunt-tipped
+- **Folding shears** – Strap cutter, glass breaker, holster
 
 We sometimes also have shibari rope spikes:
 

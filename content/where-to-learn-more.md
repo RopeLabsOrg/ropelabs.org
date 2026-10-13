@@ -30,7 +30,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 - [IKSK](https://www.iksk-berlin.de), Berlin - rope bondage events and workshops
 - [Seilhafen](https://seilhafen.de), Berlin - contemporary rope bondage education and workshops
-- [Karada House](https://karada-house.de), Berlin - queer Shibari, kink & art space with workshops and events
+- [Karada House](https://karada-house.de), Berlin - queer shibari, kink & art space with workshops and events
 - [KOR Berlin](https://www.korberlin.com), Berlin - educational classes and community gatherings
 - [Social Rope Lab](https://ropelab.de/), Bremen - rope practice and education
 - [The KnotArt](https://fetlife.com/KnotArt), Oldenburg - rope art and shibari workshops
@@ -57,7 +57,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 ### United Kingdom
 
-- [Anatomie Studio](https://anatomiestudio.com), London - dedicated space for learning and practicing Japanese-inspired rope bondage
+- [Anatomie Studio](https://anatomiestudio.com), London - dedicated space for learning and practising Japanese-inspired rope bondage
 - [Rope Office Hours](https://ropeofficehours.com), London - cooperative focused on rope bondage education and community safety
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
