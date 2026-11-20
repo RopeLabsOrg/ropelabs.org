@@ -67,7 +67,7 @@ For most students we'd suggest a simple starter kit:
 - **Three matching 8m lengths** so your handling stays consistent.
 - A pair of safety shears and you have everything needed to practice safely.
 
-If you are not sure whether to pick jute, POSH, or a mix, we are happy to talk it through based on how you tie and who you tie with.
+If you are not sure whether to pick jute, POSH, or a mix, we are happy to talk it through based on how you tie and who you tie with. Tsuri Neko's handbook sets [POSH against jute](https://shop.tsurineko.org/en/handbook/posh-vs-jute) in writing.
 
 ## Rope choices in short
 
@@ -102,7 +102,7 @@ Good options for cutting rope safely include:
 - Rock-climbing or rescue shears - designed to last longer
 - Other blunt-tipped cutters made to slice through rope quickly
 
-**Test your scissors** on a spare piece of your own rope. One firm, committed squeeze should give a clean cut. If it does not, upgrade your tool.
+**Test your scissors** on a spare piece of your own rope. One firm, committed squeeze should give a clean cut. If it does not, upgrade your tool. The handbook works through [which cutters to carry](https://shop.tsurineko.org/en/handbook/safety-cutters) tool by tool.
 
 ## Rope Spikes
 
