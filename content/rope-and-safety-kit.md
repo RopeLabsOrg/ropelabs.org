@@ -114,6 +114,8 @@ We maintain a short list of trusted sellers. Suggestions via GitHub issues or pu
 
 - **[Tsuri Neko](https://shop.tsurineko.org/en)** – Leuven, Belgium, run by one of our organisers. The same Ogawa jute and POSH we hand out at events; ships within the EU only.
 
+For a longer list, the handbook has a [guide to buying shibari rope in the Benelux](https://shop.tsurineko.org/en/handbook/buy-rope-benelux).
+
 #### Online retailers
 
 - [Kinbaku Lounge](https://kinbakulounge.dk) – Copenhagen, Denmark. Workshops and shop; webshop currently delivers within Denmark only
@@ -152,7 +154,7 @@ Avoid:
 
 Most jute uses [jute batching oil](https://shop.tsurineko.org/en/handbook/jute-batching-oil) and may retain a mild smell. Airing and handling reduce this over time.
 
-Many community methods exist. Each trades strength for softness to some degree. The handbook has a longer piece on [what jute wants week to week](https://shop.tsurineko.org/en/handbook/rope-care).
+Many community methods exist for [breaking in raw jute](https://shop.tsurineko.org/en/handbook/break-in-jute). Each trades strength for softness to some degree. The handbook has a longer piece on [what jute wants week to week](https://shop.tsurineko.org/en/handbook/rope-care).
 
 ## Related pages
 
