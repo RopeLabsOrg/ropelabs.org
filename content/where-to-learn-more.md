@@ -23,20 +23,22 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 - [Tsuri Neko](https://tsurineko.org), Leuven (our rope space) - Lessons, workshops and [rope jams](https://tsurineko.org/rope-jams-leuven)
 - [Peer Rope](https://www.peerropeleuven.com), Leuven - peer learning and practice sessions
 - [Nicolas' Rope Dojo](https://dojo.a-nicolas.art), Brussels - shibari classes and workshops
-- [Shibari Lounge](https://www.shibarilounge.com/), Antwerp - workshops and community events (search [FetLife.com](https://fetlife.com) for current information)
-- [Studio TIEY](https://tiey.eu), Antwerp - shibari classes, trainings, workshops and community events ([FetLife](https://fetlife.com/StudioTIEY))
 - [Subspace](https://subspace-bxl.be), Brussels - shibari studio with classes, rope jams and a hemp webshop
+- [Shibari Lounge](https://www.shibarilounge.com/), Antwerp - workshops and community events
+- [Studio TIEY](https://tiey.eu), Antwerp - shibari classes, trainings, workshops and community events
 - [Atelier Mae](https://www.atelier-mae-shibari.com), Namur - shibari classes and rope jams, in French
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ### Germany
 
+- [The KnotArt](https://fetlife.com/KnotArt), Oldenburg - rope art and shibari workshops
+- [Social Rope Lab](https://ropelab.de/), Bremen - rope practice and education
 - [IKSK](https://www.iksk-berlin.de), Berlin - rope bondage events and workshops
 - [Seilhafen](https://seilhafen.de), Berlin - contemporary rope bondage education and workshops
 - [Karada House](https://karada-house.de), Berlin - queer shibari, kink & art space with workshops and events
 - [KOR Berlin](https://www.korberlin.com), Berlin - educational classes and community gatherings
-- [Social Rope Lab](https://ropelab.de/), Bremen - rope practice and education
-- [The KnotArt](https://fetlife.com/KnotArt), Oldenburg - rope art and shibari workshops
+- [Daruma](https://www.daruma.berlin), Berlin - dedicated shibari studio with classes, guest-teacher workshops and rope jams
+- [Shibari Studio Berlin](https://www.shibari-studio.com), Berlin - artist-led studio with workshops, private tuition and online courses
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ### Austria
@@ -48,20 +50,22 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 
 ### Netherlands
 
-- [Knot Here](https://www.knothere.nl), Amsterdam - rope events and welcoming community space
 - [Ellipsis Rope](https://www.instagram.com/ellipsisropeevents), Rotterdam - workshops, community, and hand-finished rope
+- [Knot Here](https://www.knothere.nl), Amsterdam - rope events and welcoming community space
 - [RopeMarks](https://www.ropemarks.com), Amsterdam - Japanese rope bondage workshops and performances by Bob Roos
 - RopeLounge, Amsterdam - community space for rope practice and learning (search [FetLife.com](https://fetlife.com) for current information)
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ### Denmark
 
+- [MyShibari](https://myshibari.dk), Central Jutland - rope jams every two months and the annual Danish Shibari Festival
 - [Kinbaku Lounge](https://kinbakulounge.dk) - classes, workshops, practice sessions, and shop
 
 ### United Kingdom
 
 - [Anatomie Studio](https://anatomiestudio.com), London - dedicated space for learning and practising Japanese-inspired rope bondage
 - [Rope Office Hours](https://ropeofficehours.com), London - cooperative focused on rope bondage education and community safety
+- [Studio Ma](https://www.studioma.org.uk), London - foundations programme and drop-in evening classes
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ### France
@@ -72,11 +76,13 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 ### Spain
 
 - Espacio Nos, Barcelona - community space dedicated to the practice and teaching of shibari (search [FetLife.com](https://fetlife.com) for current information)
+- [Rope Jam Barcelona](https://www.ropejam.org), Barcelona - weekly Sunday rope jam
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ### Switzerland
 
 - Tying with Friends, Basel - regular rope bondage events and workshops (search [FetLife.com](https://fetlife.com) for current information)
+- [Kinbaku Studio Bern](https://kinbaku.be), Bern - beginner group workshops and private lessons
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
 
 ## Online Suggestions
