@@ -24,7 +24,7 @@ We're slowly building a list of places we recommend. Opening an [issue](https://
 - [Peer Rope](https://www.peerropeleuven.com), Leuven - peer learning and practice sessions
 - [Nicolas' Rope Dojo](https://dojo.a-nicolas.art), Brussels - shibari classes and workshops
 - [Shibari Lounge](https://www.shibarilounge.com/), Antwerp - workshops and community events (search [FetLife.com](https://fetlife.com) for current information)
-- [Studio TIEY](https://www.tiey.eu), Antwerp - shibari classes, trainings, workshops and community events ([FetLife](https://fetlife.com/StudioTIEY))
+- [Studio TIEY](https://tiey.eu), Antwerp - shibari classes, trainings, workshops and community events ([FetLife](https://fetlife.com/StudioTIEY))
 - [Subspace](https://subspace-bxl.be), Brussels - shibari studio with classes, rope jams and a hemp webshop
 - [Atelier Mae](https://www.atelier-mae-shibari.com), Namur - shibari classes and rope jams, in French
 - Search [FetLife.com](https://fetlife.com) for rope jams, peer rope, and workshops in your city
