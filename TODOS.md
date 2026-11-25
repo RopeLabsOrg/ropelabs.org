@@ -41,40 +41,6 @@ shared and the filter is not what that branch was changing.
 **Priority:** P3
 **Depends on:** None
 
-### Bring `ropelabs.be` and `tsurineko.org` onto the UTM fixes
-
-Both still render UTM params after any `#fragment` and emit
-`rel="noopener noreferrer"`. The two repos are nowhere near each other, and the
-cheap one is the one that matters:
-
-**`tsurineko.org` -- trivial, do this one.** Already on `^2.0.0`, so moving to
-`^2.1.0` is a patch bump inside 2.x with no breaking change. It took the 2.0
-accent folding when it adopted 2.0.0, and its `translationOf` values are all
-plain ASCII slugs (`index`, `shibari-lessons-leuven`, `rope-jams-leuven`,
-`rope-for-sale-leuven`), so the translation migration note does not bite. This
-is also the repo where the fix has value: it has real outbound links and
-hand-tags a SumUp payment link.
-
-**`ropelabs.be` -- awkward, low value.** Still on `^0.3.2`, so it crosses both
-the v1.0 and v2.0 breaking changes. v1.0 removed the template placeholders that
-are now auto-injected, and `scripts/template.html` still carries three of them:
-`{{NOINDEX}}` (line 8), `{{CANONICAL_URL}}` (line 10) and `{{HREFLANG_LINKS}}`
-(line 11). Those have to come out; both templates already have the `</head>`
-the injector needs. The 2.0 accent folding is a non-issue here -- no accented
-filenames, no accented headings, no hand-written `#anchor` links. And the
-payoff is close to nil: `.be` links out only to `tally.so`, so this is a
-consistency bump, not a fix.
-
-Each is a separate git repo needing its own branch, commit and PR. **Commit the
-lockfile, not just `package.json`** -- both run `bun install --frozen-lockfile`
-in `pages.yml` (`.be` line 34, `tsurineko.org` line 38), so a widened range
-alone changes nothing on deploy. Diff the rendered output before and after, as
-was done here, rather than trusting a green build.
-
-**Effort:** S (tsurineko.org) / M (ropelabs.be)
-**Priority:** P2 (tsurineko.org) / P3 (ropelabs.be)
-**Depends on:** None
-
 ### Trailing-slash paths pass the link check and 404 in production
 
 **What:** `https://ropelabs.org/39c3` returns 200; `https://ropelabs.org/39c3/`
@@ -127,18 +93,18 @@ What the original item got backwards: it read the UTM-vs-`noreferrer` tension
 as "either the tagging or the `rel` is doing the wrong thing". It is the `rel`.
 The UTM string already discloses the origin more durably than a Referer header
 would, so `noreferrer` withholds nothing from the destinations that read UTMs
-while hiding us from the studios that only read referrers. Tracked above as a
-library change, since the value is hardcoded in `appendUtmParams`.
+while hiding us from the studios that only read referrers. The value was
+hardcoded in `appendUtmParams`, so it took the library change recorded above.
 
 **Values left alone.** `utm_source=ropelabs`, `utm_medium=website`,
 `utm_campaign=ropelabs` all stay. A swap to `ropelabs.org`/`referral` was
 tried and reverted: the two arguments for it did not survive checking. Nothing
 in the ecosystem runs GA4, so its channel-grouping rules are irrelevant, and
-`ropelabs.be` links out only to `tally.so`, so the two sites have never shared
-a destination that could confuse them. What remained was cosmetic, against two
-real costs -- it would split the shop's `orders` history at the deploy
-boundary, and it would break from `tsurineko.org`'s bare `tsurineko`, which is
-the house convention.
+the bare brand value turned out never to have been ambiguous in practice --
+no sibling site sharing it links to any destination this site links to. What
+remained was cosmetic, against two real costs -- it would split the shop's
+`orders` history at the deploy boundary, and it would break from
+`tsurineko.org`'s bare `tsurineko`, which is the house convention.
 
 `utm_campaign` duplicating `utm_source` is deliberate and documented in
 `build-pages.ts`: it is the free slot, and the builder skips any URL already
