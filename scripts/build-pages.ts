@@ -20,6 +20,11 @@ const config = {
     backLinkLabel: 'Back to RopeLabs',
     ogImage: '/img/icon-512.png',
   },
+  // Applied by the builder to every rendered external link (any host not
+  // ending in ropelabs.org). `utm_campaign` is the free slot: the builder
+  // skips any URL that already contains `utm_campaign=`, so an individual
+  // link can be hand-tagged per page. shop.tsurineko.org reads these three
+  // keys first-party into `Order` via its `CapturesAcquisition` concern.
   utmParams: {
     utm_campaign: 'ropelabs',
     utm_medium: 'website',

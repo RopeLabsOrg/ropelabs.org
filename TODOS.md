@@ -41,26 +41,6 @@ shared and the filter is not what that branch was changing.
 **Priority:** P3
 **Depends on:** None
 
-### Decide the outbound UTM posture
-
-**What:** `scripts/build-pages.ts` appends
-`?utm_campaign=ropelabs&utm_medium=website&utm_source=ropelabs` to every external
-link, while the same links carry `rel="noopener noreferrer"`.
-
-**Why:** `noreferrer` suppresses the Referer header, then the UTM string
-re-declares ropelabs.org as the origin inside the URL. Third-party analytics get
-an explicit marker for shibari-workshop click-throughs that the `rel` attribute
-was withholding. Either the tagging or the `rel` is doing the wrong thing.
-
-**Context:** Site-wide and pre-existing. Surfaced because the 2026 events PR
-pointed it at three new third-party destinations (emfcamp.org, bornhack.dk,
-content.fri3d.be). This is a posture call, not a bug: keep the attribution and
-drop the pretence, or drop the UTM params on outbound links.
-
-**Effort:** S
-**Priority:** P3
-**Depends on:** None
-
 ### Trailing-slash paths pass the link check and 404 in production
 
 **What:** `https://ropelabs.org/39c3` returns 200; `https://ropelabs.org/39c3/`
@@ -80,3 +60,65 @@ Current links use the correct no-slash form, so nothing is broken today.
 **Depends on:** None
 
 ## Completed
+
+### Publish and adopt simple-markdown-builder 2.1.0 (2026-11-25)
+
+Done. 2.1.0 is on npm as `latest`, and this repo is on `^2.1.0` with
+`bun.lock` pinning `2.1.0`.
+
+Both library fixes are live in the rendered output, verified rather than
+assumed. Diffed the whole `docs/` tree against the 1.0.1 build: the only change
+is 178 external links moving from `rel="noopener noreferrer"` to
+`rel="noopener"`, with heading ids byte-identical. The two `map.why2025.org`
+links now carry their params before the `#` with coordinates intact, and
+`build-pages.ts` sets no `noreferrer` option, so the new default stands.
+
+**The lockfile step was the trap.** `package.json` pinning `^2.1.0` is not
+enough on its own: `.github/workflows/pages.yml` line 34 runs `bun install
+--frozen-lockfile`, which installs exactly what `bun.lock` resolves and never
+re-resolves the range. A published 2.1.0 with a lockfile still pinning 2.0.0
+would be ignored on every deploy while reading as done. Caught by `/codex
+review` as a P2 after this session had claimed the opposite. Any future bump
+here or in a sibling repo has to commit the lockfile.
+
+### Decide the outbound UTM posture (2026-11-25)
+
+**Decided: keep the tagging, drop `noreferrer`.** External links stay tagged.
+`shop.tsurineko.org` reads `utm_source`/`utm_medium`/`utm_campaign` onto
+`Order` via `CapturesAcquisition`, and no analytics JS runs anywhere in the
+shop -- that concern is the whole pipeline. Dropping the params would make
+RopeLabs-driven orders indistinguishable from direct traffic.
+
+What the original item got backwards: it read the UTM-vs-`noreferrer` tension
+as "either the tagging or the `rel` is doing the wrong thing". It is the `rel`.
+The UTM string already discloses the origin more durably than a Referer header
+would, so `noreferrer` withholds nothing from the destinations that read UTMs
+while hiding us from the studios that only read referrers. The value was
+hardcoded in `appendUtmParams`, so it took the library change recorded above.
+
+**Values left alone.** `utm_source=ropelabs`, `utm_medium=website`,
+`utm_campaign=ropelabs` all stay. A swap to `ropelabs.org`/`referral` was
+tried and reverted: the two arguments for it did not survive checking. Nothing
+in the ecosystem runs GA4, so its channel-grouping rules are irrelevant, and
+the bare brand value turned out never to have been ambiguous in practice --
+no sibling site sharing it links to any destination this site links to. What
+remained was cosmetic, against two real costs -- it would split the shop's
+`orders` history at the deploy boundary, and it would break from
+`tsurineko.org`'s bare `tsurineko`, which is the house convention.
+
+`utm_campaign` duplicating `utm_source` is deliberate and documented in
+`build-pages.ts`: it is the free slot, and the builder skips any URL already
+carrying `utm_campaign=`, so individual links can be hand-tagged per page if
+per-page attribution is ever wanted. Audited coverage at the time: 178
+external links, 83 distinct destinations, 100% tagged.
+
+### Upgrade to simple-markdown-builder 2.x (2026-11-25)
+
+Moved from `^1.0.1` to `^2.0.0`. 2.0.0's breaking change folds accents in slugs
+and heading anchors (`le-ons` -> `lecons`) and fails the build when two pages
+fold to the same output. Verified safe here by diffing the full rendered `docs/`
+tree before and after: **zero bytes changed**, no filenames and no heading ids.
+This site has no accented filenames or headings -- the emoji in headings fold
+identically in both versions -- and no `translations` config, so the
+`translationOf` migration note does not apply. The seven hand-written
+`#anchor` links still resolve.
