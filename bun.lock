@@ -5,7 +5,7 @@
     "": {
       "name": "ropelabs.org",
       "dependencies": {
-        "simple-markdown-builder": "^1.0.1",
+        "simple-markdown-builder": "^2.1.0",
       },
       "devDependencies": {
         "@types/node": "^24.10.4",
@@ -94,7 +94,7 @@
 
     "readdirp": ["readdirp@5.0.0", "", {}, "sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ=="],
 
-    "simple-markdown-builder": ["simple-markdown-builder@1.0.1", "", { "dependencies": { "chokidar": "^5.0.0", "deepl-node": "^1.24.0", "markdown-it": "^14.1.0", "markdown-it-anchor": "^9.2.0" }, "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-x86yAamrO+fMWB0y+7ccX5CCjxGkDQFhzAlG/d2QfCHSL42WtZ5QdbqdB8CN87Hblsl7Zo1zZYXYFoHlLWmxFw=="],
+    "simple-markdown-builder": ["simple-markdown-builder@2.1.0", "", { "dependencies": { "chokidar": "^5.0.0", "deepl-node": "^1.24.0", "markdown-it": "^14.1.0", "markdown-it-anchor": "^9.2.0" }, "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-jDuS49lJ6VCPKuZMWAazt14sCvD9XxQ3eC0BjuvlnC1QXUAoe5q4mlSPbX3JwUWrwHKIaMWK4EZrq8IXbNPjUQ=="],
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
