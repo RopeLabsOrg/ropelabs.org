@@ -9,7 +9,7 @@
     "test": "bun scripts/build-pages.ts --clean"
   },
   "dependencies": {
-    "simple-markdown-builder": "^2.1.0"
+    "simple-markdown-builder": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.4",
