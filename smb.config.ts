@@ -1,14 +1,17 @@
-import { build } from 'simple-markdown-builder'
-import path from 'node:path'
+import { defineConfig } from 'simple-markdown-builder'
 
-const CLEAN_FLAG = process.argv.includes('--clean')
+// The footer's "Updated <date>" line needs a date behind it, and a page whose
+// source has no commit yet has none, so the line is dropped rather than left as
+// a bare "Updated" label. Prettier wraps the template's tags, hence the
+// newline-tolerant opening and closing tag.
+const UPDATED_LINE = /\s*<span[^>]*\sdata-updated[^>]*>[\s\S]*?<\/span\s*>\s*/g
 
-const config = {
-  contentDir: 'content',
-  outputDir: 'docs',
+export default defineConfig({
   baseUrl: 'https://ropelabs.org',
-  templatePath: path.resolve('scripts/template.html'),
-  homepageTemplatePath: path.resolve('scripts/homepage-template.html'),
+  templatePath: 'scripts/template.html',
+  homepageTemplatePath: 'scripts/homepage-template.html',
+  robots: true,
+  lastmod: 'git',
   defaultMeta: {
     title: 'RopeLabs',
     description:
@@ -35,18 +38,6 @@ const config = {
     linkify: true,
     typographer: true,
   },
-  clean: CLEAN_FLAG,
-}
-
-const WATCH_FLAG = process.argv.includes('--watch')
-
-if (WATCH_FLAG) {
-  const { startDevServer } = await import('simple-markdown-builder')
-  await startDevServer(config, {
-    port: Number(process.env.PORT ?? 4173),
-    outputDir: 'docs',
-    clean: CLEAN_FLAG,
-  })
-} else {
-  await build(config)
-}
+  onPageRendered: (html, plan) =>
+    plan.meta.lastModified ? html : html.replace(UPDATED_LINE, '\n        '),
+})
