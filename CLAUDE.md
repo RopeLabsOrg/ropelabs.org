@@ -21,11 +21,12 @@ and in classes, not from search.
 ## Stack
 
 - Bun runtime + TypeScript
-- `simple-markdown-builder` v3.0.0 renders `content/*.md` → `docs/` via
-  `scripts/build-pages.ts`
+- `simple-markdown-builder` v3.1.0 renders `content/*.md` → `docs/` via its
+  `smb` CLI, configured in `smb.config.ts` at the repo root
 - HTML templates with inline Tailwind config + `:root` CSS variables in
   `scripts/template.html`
-- Deploy: GitHub Pages on push to `main`
+- Deploy: GitHub Pages on push to `main`, via the reusable workflow in
+  `Pezmc/simple-markdown-builder` (pinned to a release tag)
 - Prettier via `bun run format`
 - `.claude/hooks/` — pre-tool gstack-check hook
 
@@ -34,8 +35,9 @@ Scripts: `bun run dev` (watch), `bun run build:pages`, `bun run build:clean`,
 
 ## Testing
 
-`bun run test` — `build:pages --clean`. It renders every page and fails on any
-relative internal link that does not resolve. `--clean` is load-bearing:
+`bun run test` — `smb build --clean`. It renders every page and fails on any
+relative internal link, or any local `src`/`srcset` asset, that does not
+resolve. `--clean` is load-bearing:
 generated HTML is gitignored and never pruned, so without it a stale
 `docs/*.html` left over from a deleted page satisfies a link that would 404 on
 a fresh Pages checkout.
@@ -43,10 +45,10 @@ a fresh Pages checkout.
 Absolute URLs are NOT checked, `https://ropelabs.org/…` included, so the three
 event links on the homepage can rot silently and a same-site link written in
 full skips the check. No PR job runs it either. `pages.yml` fires on push to
-`main` or manual dispatch, and its `build:pages` step runs the same link check,
-so a broken internal link merges green, fails the deploy, and leaves the live
-site frozen on the previous build. There is no unit-test framework;
-`scripts/build-pages.ts` is untested.
+`main` or manual dispatch, and the reusable workflow's build step runs the same
+link check, so a broken internal link merges green, fails the deploy, and leaves
+the live site frozen on the previous build. There is no unit-test framework;
+`smb.config.ts` is untested.
 
 Deferred infrastructure work is tracked in `TODOS.md`.
 
@@ -55,6 +57,8 @@ Deferred infrastructure work is tracked in `TODOS.md`.
 - `content/index.md` — homepage
 - `content/donate.md`, `content/why2025.md`, `content/where-to-learn-more.md`,
   `content/rope-and-safety-kit.md` — core pages
+- `content/404.md` — not-found page, served by GitHub Pages for any missing
+  URL; its links must be root-relative since it renders at any depth
 - `content/39c3.md` + `content/39c3/` — event page and its subfolder; nested
   markdown renders recursively
 
@@ -90,6 +94,7 @@ produce better results than an ad-hoc answer. When in doubt, invoke the
 skill. A false positive is cheaper than a false negative.
 
 Key routing rules:
+
 - Product ideas, "is this worth building", brainstorming → invoke /office-hours
 - Strategy, scope, "think bigger", "what should we build" → invoke /plan-ceo-review
 - Architecture, "does this design make sense" → invoke /plan-eng-review
@@ -138,6 +143,7 @@ Use /browse for all web browsing. Use ~/.claude/skills/gstack/... for gstack
 file paths.
 
 ## GBrain Search Guidance (configured by /sync-gbrain)
+
 <!-- gstack-gbrain-search-guidance:start -->
 
 GBrain is set up and synced on this machine. The agent should prefer gbrain
@@ -152,25 +158,26 @@ worktree routes to that source by default — no `--source` flag needed. Pass
 
 Seven rope-sites sources are indexed (markdown + code where applicable):
 
-| Source ID | Path | Pages |
-| --- | --- | --- |
-| `rope-sites-umbrella` | umbrella docs (`docs/` + root CLAUDE.md/DESIGN.md/README.md) | ~6 |
-| `tsurineko-org` | tsurineko.org | ~45 |
-| `shop-tsurineko-org` | shop.tsurineko.org | ~208 |
-| `shibari-events-tsurineko-org` | shibari-events.tsurineko.org | ~28 |
-| `ropelabs-org` | ropelabs.org | ~22 |
-| `ropelabs-be` | ropelabs.be | ~10 |
-| `project-nawa` | project-nawa (rope app) | ~239 |
+| Source ID                      | Path                                                         | Pages |
+| ------------------------------ | ------------------------------------------------------------ | ----- |
+| `rope-sites-umbrella`          | umbrella docs (`docs/` + root CLAUDE.md/DESIGN.md/README.md) | ~6    |
+| `tsurineko-org`                | tsurineko.org                                                | ~45   |
+| `shop-tsurineko-org`           | shop.tsurineko.org                                           | ~208  |
+| `shibari-events-tsurineko-org` | shibari-events.tsurineko.org                                 | ~28   |
+| `ropelabs-org`                 | ropelabs.org                                                 | ~22   |
+| `ropelabs-be`                  | ropelabs.be                                                  | ~10   |
+| `project-nawa`                 | project-nawa (rope app)                                      | ~239  |
 
 Prefer gbrain when:
+
 - "Where is X handled?" / semantic intent, no exact string yet:
-    `gbrain search "<terms>"` or `gbrain query "<question>"`
+  `gbrain search "<terms>"` or `gbrain query "<question>"`
 - "Where is symbol Y defined?" / symbol-based code questions:
-    `gbrain code-def <symbol>` or `gbrain code-refs <symbol>`
+  `gbrain code-def <symbol>` or `gbrain code-refs <symbol>`
 - "What calls Y?" / "What does Y depend on?":
-    `gbrain code-callers <symbol>` / `gbrain code-callees <symbol>`
+  `gbrain code-callers <symbol>` / `gbrain code-callees <symbol>`
 - Cross-ecosystem semantic questions ("which sites mention kuwairo?"):
-    `gbrain search "kuwairo"` — federated default surfaces all 7 sources
+  `gbrain search "kuwairo"` — federated default surfaces all 7 sources
 
 Grep is still right for known exact strings, regex, multiline patterns, and
 file globs. Run `/sync-gbrain` after meaningful code changes; for ongoing

@@ -2,14 +2,14 @@
   "name": "ropelabs.org",
   "private": true,
   "scripts": {
-    "dev": "bun scripts/build-pages.ts --watch",
-    "build:pages": "bun scripts/build-pages.ts",
-    "build:clean": "bun scripts/build-pages.ts --clean",
+    "dev": "smb dev",
+    "build:pages": "smb build",
+    "build:clean": "smb build --clean",
     "format": "bunx prettier --write .",
-    "test": "bun scripts/build-pages.ts --clean"
+    "test": "smb build --clean"
   },
   "dependencies": {
-    "simple-markdown-builder": "^3.0.0"
+    "simple-markdown-builder": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.4",

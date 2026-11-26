@@ -25,22 +25,6 @@ umbrella CLAUDE.md already documents "CI green gates deploy" as canonical.
 **Priority:** P2
 **Depends on:** None
 
-### Fix the dead lockfile path filter in pages.yml
-
-**What:** `.github/workflows/pages.yml` line 12 filters on `bun.lockb`; the repo
-tracks `bun.lock`.
-
-**Why:** Bun switched to the text `bun.lock` format. The filter never matches, so
-a dependency bump touching only the lockfile will not trigger a deploy.
-
-**Context:** One-word change. Flagged by the structured review and the Claude
-adversarial pass during the same /ship. Left unfixed because this repo is
-shared and the filter is not what that branch was changing.
-
-**Effort:** S
-**Priority:** P3
-**Depends on:** None
-
 ### Trailing-slash paths pass the link check and 404 in production
 
 **What:** `https://ropelabs.org/39c3` returns 200; `https://ropelabs.org/39c3/`
@@ -71,7 +55,7 @@ assumed. Diffed the whole `docs/` tree against the 1.0.1 build: the only change
 is 178 external links moving from `rel="noopener noreferrer"` to
 `rel="noopener"`, with heading ids byte-identical. The two `map.why2025.org`
 links now carry their params before the `#` with coordinates intact, and
-`build-pages.ts` sets no `noreferrer` option, so the new default stands.
+`smb.config.ts` sets no `noreferrer` option, so the new default stands.
 
 **The lockfile step was the trap.** `package.json` pinning `^2.1.0` is not
 enough on its own: `.github/workflows/pages.yml` line 34 runs `bun install
@@ -107,7 +91,7 @@ remained was cosmetic, against two real costs -- it would split the shop's
 `tsurineko.org`'s bare `tsurineko`, which is the house convention.
 
 `utm_campaign` duplicating `utm_source` is deliberate and documented in
-`build-pages.ts`: it is the free slot, and the builder skips any URL already
+`smb.config.ts`: it is the free slot, and the builder skips any URL already
 carrying `utm_campaign=`, so individual links can be hand-tagged per page if
 per-page attribution is ever wanted. Audited coverage at the time: 178
 external links, 83 distinct destinations, 100% tagged.

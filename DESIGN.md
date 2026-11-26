@@ -17,9 +17,9 @@ reference implementation live in the umbrella repo — see `../DESIGN.md`.
 
 ## Two visual families
 
-| Family | Accent |
-|---|---|
-| Tsuri Neko | kakiiro `#c2562a` |
+| Family                   | Accent               |
+| ------------------------ | -------------------- |
+| Tsuri Neko               | kakiiro `#c2562a`    |
 | **RopeLabs (this repo)** | **matcha `#5f6b3a`** |
 
 RopeLabs shares anchors (page, ink, link) with the other family and shifts
@@ -30,18 +30,18 @@ off-family. Per-site assignments live in the umbrella repo.
 
 ```css
 :root {
-  --color-page: #f7f3ea;                       /* kinari — unbleached cream */
+  --color-page: #f7f3ea; /* kinari — unbleached cream */
   --color-surface: rgba(255, 255, 255, 0.92);
   --color-surface-strong: #ffffff;
-  --color-text: #1a2332;                       /* sumi — near-black indigo */
-  --color-muted: #5a6372;                      /* WCAG AA on kinari (4.5:1+) */
+  --color-text: #1a2332; /* sumi — near-black indigo */
+  --color-muted: #5a6372; /* WCAG AA on kinari (4.5:1+) */
   --color-border: rgba(26, 35, 50, 0.14);
-  --color-primary: #5f6b3a;                    /* matcha — teaching accent */
+  --color-primary: #5f6b3a; /* matcha — teaching accent */
   --color-primary-hover: #4d5730;
-  --color-secondary: #2c4a6b;                  /* aizome — indigo (links) */
+  --color-secondary: #2c4a6b; /* aizome — indigo (links) */
   --color-highlight: #5f6b3a;
-  --color-danger:  #8a2a2a;
-  --color-focus:   #2c4a6b;
+  --color-danger: #8a2a2a;
+  --color-focus: #2c4a6b;
 }
 
 body {
@@ -49,8 +49,12 @@ body {
   color: var(--color-text);
 }
 
-a { color: var(--color-secondary); }
-a:hover { color: var(--color-primary); }
+a {
+  color: var(--color-secondary);
+}
+a:hover {
+  color: var(--color-primary);
+}
 
 :focus-visible {
   outline: 2px solid var(--color-focus);
@@ -69,8 +73,8 @@ iconography or copy for success states instead of a second green.
 ## Surfaces
 
 - **Card:** `bg: var(--color-surface); border: 1px solid var(--color-border);
-  border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  backdrop-filter: blur(6px); padding: 2rem;`
+border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+backdrop-filter: blur(6px); padding: 2rem;`
 - **Card (photography):** use `--color-surface-strong: #ffffff` when a
   photo's contrast is at risk against kinari.
 - **Button:** `border-radius: 14px; padding: 0.75rem 1rem;` hover lifts
@@ -92,10 +96,12 @@ iconography or copy for success states instead of a second green.
 ## Voice rules
 
 **Do:**
+
 - Dry, concrete, Belgian/British understatement
 - Specific: "Workshop runs two days. You bring rope, we bring a lesson plan."
 
 **Don't:**
+
 - Emoji, exclamation marks, chatbot-tone
 - Testimonial widgets, rating stars
 - Hero carousels
@@ -118,8 +124,8 @@ iconography or copy for success states instead of a second green.
 
 ## This site's accent
 
-| Site | Primary | Register |
-|---|---|---|
+| Site                         | Primary              | Register                     |
+| ---------------------------- | -------------------- | ---------------------------- |
 | **ropelabs.org (this repo)** | **matcha `#5f6b3a`** | **Teaching (international)** |
 
 Accents for the other sites, and the full strong/loose-link model, live in

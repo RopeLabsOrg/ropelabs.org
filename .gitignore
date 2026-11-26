@@ -4,3 +4,4 @@ docs/**/*.html
 .DS_Store
 docs/sitemap.xml
 .gstack/
+docs/robots.txt
