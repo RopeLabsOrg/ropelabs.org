@@ -9,7 +9,7 @@
     "test": "smb build --clean"
   },
   "dependencies": {
-    "simple-markdown-builder": "^3.1.0"
+    "simple-markdown-builder": "^3.2.0"
   },
   "devDependencies": {
     "@types/node": "^24.10.4",

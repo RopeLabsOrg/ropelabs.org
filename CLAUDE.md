@@ -21,7 +21,7 @@ and in classes, not from search.
 ## Stack
 
 - Bun runtime + TypeScript
-- `simple-markdown-builder` v3.1.0 renders `content/*.md` → `docs/` via its
+- `simple-markdown-builder` v3.2.0 renders `content/*.md` → `docs/` via its
   `smb` CLI, configured in `smb.config.ts` at the repo root
 - HTML templates with inline Tailwind config + `:root` CSS variables in
   `scripts/template.html`
