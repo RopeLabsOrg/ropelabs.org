@@ -1,0 +1,38 @@
+<script>
+  ;(() => {
+    const targets = document.querySelectorAll('[data-email]')
+    if (targets.length === 0) {
+      return
+    }
+
+    const decode = (value) => {
+      if (!value) return ''
+      try {
+        return atob(value)
+      } catch {
+        return ''
+      }
+    }
+
+    targets.forEach((target) => {
+      if (!(target instanceof HTMLElement)) {
+        return
+      }
+      const user = decode(target.dataset.user)
+      const domain = decode(target.dataset.domain)
+      if (!user || !domain) {
+        return
+      }
+
+      const address = `${user}@${domain}`
+      target.textContent = address
+
+      const link = target.closest('[data-email-link]')
+      if (link instanceof HTMLAnchorElement) {
+        link.href = `mailto:${address}`
+      }
+    })
+  })()
+</script>
+<!-- 100% privacy-first analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

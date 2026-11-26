@@ -1,11 +1,5 @@
 import { defineConfig } from 'simple-markdown-builder'
 
-// The footer's "Updated <date>" line needs a date behind it, and a page whose
-// source has no commit yet has none, so the line is dropped rather than left as
-// a bare "Updated" label. Prettier wraps the template's tags, hence the
-// newline-tolerant opening and closing tag.
-const UPDATED_LINE = /\s*<span[^>]*\sdata-updated[^>]*>[\s\S]*?<\/span\s*>\s*/g
-
 export default defineConfig({
   baseUrl: 'https://ropelabs.org',
   templatePath: 'scripts/template.html',
@@ -38,6 +32,4 @@ export default defineConfig({
     linkify: true,
     typographer: true,
   },
-  onPageRendered: (html, plan) =>
-    plan.meta.lastModified ? html : html.replace(UPDATED_LINE, '\n        '),
 })

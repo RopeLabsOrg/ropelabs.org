@@ -1,74 +1,7 @@
 <!doctype html>
 <html lang="{{LANG}}" class="h-full">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{TITLE}}</title>
-    <link rel="icon" href="/img/favicon.ico" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/img/favicon-32x32.png"
-    />
-    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
-    <link rel="manifest" href="/img/manifest.json" />
-    <meta name="theme-color" content="#f7f3ea" />
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              page: '#f7f3ea',
-              ink: '#1a2332',
-              muted: '#5a6372',
-              primary: '#5f6b3a',
-              'primary-hover': '#4d5730',
-              secondary: '#2c4a6b',
-              danger: '#8a2a2a',
-              brand: '#1a2332',
-              accent: '#5f6b3a',
-              rope: '#5f6b3a',
-            },
-          },
-        },
-      }
-    </script>
-    <style>
-      :root {
-        --color-page: #f7f3ea;
-        --color-surface: rgba(255, 255, 255, 0.92);
-        --color-surface-strong: #ffffff;
-        --color-text: #1a2332;
-        --color-muted: #5a6372;
-        --color-border: rgba(26, 35, 50, 0.14);
-        --color-primary: #5f6b3a;
-        --color-primary-hover: #4d5730;
-        --color-secondary: #2c4a6b;
-        --color-highlight: #5f6b3a;
-        --color-danger: #8a2a2a;
-        --color-focus: #2c4a6b;
-      }
-      body {
-        background: radial-gradient(
-          circle at top,
-          #fbf8f0 0%,
-          var(--color-page) 60%
-        );
-        color: var(--color-text);
-      }
-      a {
-        color: var(--color-secondary);
-      }
-      a:hover {
-        color: var(--color-primary);
-      }
-      :focus-visible {
-        outline: 2px solid var(--color-focus);
-        outline-offset: 2px;
-      }
-    </style>
+    {{> partials/head.html}}
   </head>
   <body class="min-h-full text-ink">
     <div class="relative isolate overflow-hidden">
@@ -106,67 +39,14 @@
         <div
           class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6 text-sm"
         >
-          <span>
-            © {{YEAR}} RopeLabs •
-            <a
-              data-email-link
-              href="#"
-              class="text-white underline decoration-dashed decoration-white/70 underline-offset-4 hover:decoration-white"
-            >
-              <span
-                data-email
-                data-user="Y29udGFjdA=="
-                data-domain="cm9wZWxhYnMub3Jn"
-                >c&#8203;o&#8203;n&#8203;t&#8203;a&#8203;c&#8203;t&#8203;@&#8203;r&#8203;o&#8203;p&#8203;e&#8203;l&#8203;a&#8203;b&#8203;s&#8203;.&#8203;o&#8203;r&#8203;g</span
-              >
-            </a>
-          </span>
-          <span data-updated class="text-white/70"
+          {{> partials/footer-contact.html}} {{#UPDATED}}
+          <span class="text-white/70"
             >Updated <time datetime="{{UPDATED_ISO}}">{{UPDATED}}</time></span
           >
+          {{/UPDATED}}
         </div>
       </footer>
     </div>
-    <script>
-      ;(() => {
-        const targets = document.querySelectorAll('[data-email]')
-        if (targets.length === 0) {
-          return
-        }
-
-        const decode = (value) => {
-          if (!value) return ''
-          try {
-            return atob(value)
-          } catch {
-            return ''
-          }
-        }
-
-        targets.forEach((target) => {
-          if (!(target instanceof HTMLElement)) {
-            return
-          }
-          const user = decode(target.dataset.user)
-          const domain = decode(target.dataset.domain)
-          if (!user || !domain) {
-            return
-          }
-
-          const address = `${user}@${domain}`
-          target.textContent = address
-
-          const link = target.closest('[data-email-link]')
-          if (link instanceof HTMLAnchorElement) {
-            link.href = `mailto:${address}`
-          }
-        })
-      })()
-    </script>
-    <!-- 100% privacy-first analytics -->
-    <script
-      async
-      src="https://scripts.simpleanalyticscdn.com/latest.js"
-    ></script>
+    {{> partials/scripts.html}}
   </body>
 </html>
