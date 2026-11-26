@@ -51,11 +51,19 @@
         --color-focus: #2c4a6b;
       }
       body {
-        background: radial-gradient(circle at top, #fbf8f0 0%, var(--color-page) 60%);
+        background: radial-gradient(
+          circle at top,
+          #fbf8f0 0%,
+          var(--color-page) 60%
+        );
         color: var(--color-text);
       }
-      a { color: var(--color-secondary); }
-      a:hover { color: var(--color-primary); }
+      a {
+        color: var(--color-secondary);
+      }
+      a:hover {
+        color: var(--color-primary);
+      }
       :focus-visible {
         outline: 2px solid var(--color-focus);
         outline-offset: 2px;
