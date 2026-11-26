@@ -23,8 +23,10 @@ and in classes, not from search.
 - Bun runtime + TypeScript
 - `simple-markdown-builder` v3.2.0 renders `content/*.md` → `docs/` via its
   `smb` CLI, configured in `smb.config.ts` at the repo root
-- HTML templates with inline Tailwind config + `:root` CSS variables in
-  `scripts/template.html`
+- HTML templates in `scripts/`: `template.html` and `homepage-template.html`
+  hold only what differs between them and pull the rest from
+  `scripts/partials/` with `{{> partials/…}}`. The inline Tailwind config and
+  the `:root` CSS variables live in `scripts/partials/head.html`
 - Deploy: GitHub Pages on push to `main`, via the reusable workflow in
   `Pezmc/simple-markdown-builder` (pinned to a release tag)
 - Prettier via `bun run format`
@@ -70,7 +72,8 @@ Canonical tokens live in `../DESIGN.md` (umbrella). This repo's local
 - Accent: **matcha `#5f6b3a`** — warmer, more approachable teaching register.
   Shares anchors (kinari page, sumi ink, aizome links) with the
   `tsurineko.org` family; the accent is the distinct axis.
-- Matcha is already wired into `scripts/template.html` as `--color-primary`.
+- Matcha is already wired into `scripts/partials/head.html` as
+  `--color-primary`, shared by both templates.
 
 ## Voice rules
 
